@@ -24,7 +24,7 @@ const menu_data = [
     link: "/service",
     sub_menus: [
       { link: "/digital-transformation", title: "Digital Transformation" }, 
-      { link: "/it-and-low-details.jsx", title: "IT & Low Current" },
+      { link: "/it-&-low-current", title: "IT & Low Current" },
       { link: "/safety-&-security-systems", title: "Safety & Security Systems" }, 
       { link: "/data-center-it-Infrastructure", title: "Data Center & IT Infrastructure" },
       { link: "/network-security", title: "Network Security" },

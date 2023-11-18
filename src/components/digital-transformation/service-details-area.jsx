@@ -17,72 +17,73 @@ import { SiGooglemeet } from 'react-icons/si';
 
 
 const service_details_content = {
-    img: "/assets/img/services/service-details-bg.jpg",
+    img: "/assets/img/digital-service/bg.jpg",
     title: "Service Overview",
-    info_1: <>Explore a comprehensive suite of business solutions tailored to streamline and enhance your operations. From ERPNext Integration for seamless business management to specialized tools like E-invoicing, Document Management, and Healthcare Information Systems, we offer a diverse range of services. Elevate your digital presence with our Digital Sphere Solutions, and ensure security and efficiency with our innovative hardware solutions, including biometric devices, access control accessories, AV systems, digital signage, gate barriers, CCTV, meeting room schedulers, and network connectivity solutions. Discover a one-stop destination for optimizing processes, improving customer experiences, and ensuring the success of your enterprise.</>,
+    info_1: <>Welcome to Future Connect, your gateway to cutting-edge Digital Transformation Solutions. Explore our diverse range of services designed to revolutionize the way you do business.<br></br>At Future Connect, we understand that Digital Transformation is not just a service but a journey towards a connected and future-ready business environment. Embrace innovation with us and transform the way you operate!
+
+    </>,
 
 over_veiw_list: [
     {id: 1,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <PiPresentationChartBold />,
+         icon: "/assets/img/digital-service/erp.svg",
      title: "ERP",
      info: "Optimize your business with our cloud-based ERP. Manage finances, projects, inventory, and customer relationships effortlessly. Boost productivity and profitability through automation."},
     {id: 2,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <LiaFileInvoiceSolid />,
+        icon: "/assets/img/digital-service/hospital.svg",
      title: "Hospital Management System",
      info: "An end-to-end software solution can help in improving the service quality of medical facilities or clinics.",
     },
+    {id: 2,
+        img: "/assets/img/services/service-details-bg.jpg",
+        icon: "/assets/img/digital-service/hospital.svg",
+     title: "E-Invoicing",
+     info: "Experience the best in KSA e-invoicing! Our solution is fast, feature-packed, secure, and 100% ZATCA compliant. Elevate your business effortlessly.",
+    },
     {id: 3,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdAnalytics />,
+        icon: "/assets/img/digital-service/food.svg",
      title: "Food & Safety",
     info: "Introducing our streamlined Food & Safety management system – ensuring compliance and efficiency in one solution. Simplify operations, enhance safety, and meet standards effortlessly."},
     {id: 4,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <GrDocumentConfig />,
+        icon: "/assets/img/digital-service/fleet.svg",
      title: "Fleet Management",
     info: "Introducing our streamlined Fleet Management system – the solution for efficient tracking and optimization. Simplify fleet control, enhance visibility, and maximize efficiency effortlessly."},
     {id: 5,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdHealthAndSafety />,
+        icon: "/assets/img/digital-service/asset.svg",
      title: "Asset Management ",
     info:"Introducing our concise Asset Management system – the key to efficient tracking and optimization. Simplify asset control, enhance visibility, and maximize productivity effortlessly."},
     {id: 7,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdOutlineManageAccounts />,
+        icon: "/assets/img/digital-service/digital.svg",
      title: "DIGITAL SIGNAGE",
     info:"Introducing our concise Digital Signage solution – the key to impactful displays with minimal effort. Elevate communication, captivate audiences, and manage content effortlessly."},
     {id: 8,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdOnlinePrediction />,
+        icon: "/assets/img/digital-service/queue.svg",
      title: "Queuing System",
     info:"Introducing our efficient Queuing Systems – the shortcut to organized and seamless queues. Simplify customer flow, reduce wait times, and enhance overall service effortlessly."},
     {id: 9,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdInventory2 />,
+        icon: "/assets/img/digital-service/smart-board.svg",
      title: "Smart & Board",
     info:"Introducing our Smart & Board solution – the shortcut to intelligent collaboration and presentations. Streamline communication, amplify engagement, and simplify teamwork effortlessly."},
     {id: 10,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdOutlineWorkspaces />,
-     title: "FieldPro Connect",
-    info:"Optimize your field operations with FieldPro Connect—a comprehensive Field Service Management solution."},
+        icon: "/assets/img/digital-service/hr.svg",
+     title: "HR & Payroll Solution",
+    info:"Seamlessly manage your human resources and payroll with our integrated solution. Streamline HR processes, ensure payroll accuracy, and enhance employee satisfaction effortlessly."},
+    
     {id: 11,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <RiCustomerService2Line />,
-     title: "Digital Archiving",
-    info:"Introducing our streamlined Digital Archiving solution – the key to organized and accessible data. Simplify storage, enhance retrieval, and secure your information effortlessly."},
-      {id: 12,
-        img: "/assets/img/services/service-details-bg.jpg",
-         icon: <CiParking1 />,
-     title: "ParkEase Pro",
-    info:"Streamline parking operations with ParkEase Pro—a Parking Management System designed for efficiency and user convenience."},
-    {id: 13,
-        img: "/assets/img/services/service-details-bg.jpg",
-         icon: <BsFillPeopleFill />,
-     title: "HR SyncMaster",
-    info:"Simplify HR and Payroll processes with HR SyncMaster—an integrated HR & Payroll Solution."},
+        icon: "/assets/img/digital-service/hr.svg",
+     title: "LMS Solution",
+    info:"Empower your organization with our Learning Management System (LMS). Elevate training efficiency, track progress, and foster continuous learning effortlessly."},
+
+  
 
 ],
 over_veiw_list_two: [
@@ -152,13 +153,15 @@ over_veiw_list_two: [
     ],
 
     bottom_info_title: "Why Choose Future Connect",
-    bottom_info: <>In conclusion, our integrated suite of business solutions is designed to empower your organization across various domains. From ERP and financial management to healthcare, property, and field services, we provide tools for seamless operations. Elevate your online presence with our Digital Sphere Solutions and ensure robust security with our advanced hardware offerings. Experience efficiency, customer satisfaction, and operational excellence with our comprehensive range of services. Choose innovation, choose reliability—choose our solutions for a brighter and more streamlined future for your business.</>,
+    bottom_info: <>Future Connect is your dedicated partner in navigating the dynamic landscape of Digital Transformation. Our suite of services goes beyond mere solutions; we offer a transformative journey for your business. Embrace the power of innovation with our cloud-based ERP, comprehensive management systems, and streamlined solutions for every facet of your operations. Whether it's elevating healthcare services, optimizing fleet management, or enhancing communication through digital signage, we're here to propel your business into the future. At Future Connect, we don't just connect you with technology; we connect you with a future-ready, efficient, and seamlessly integrated business environment. Join us on this journey of innovation and transformation, where your success is our priority. Future Connect: Transforming Today for a Connected Tomorrow.</>,
 
 service: [
-    { id: 1, icon: <GrTechnology />, title: "Digital Solutions" },
-    { id: 2, icon: <GrShieldSecurity />, title: "Security Solutions" },
-    { id: 3, icon: <AiOutlineSolution />, title: "Operations Solutions" },
-    { id: 4, icon: <FaHotel />, title: "Hospitality Solutions" },
+    { id: 1, icon: "/assets/img/digital-service/software.svg", title: "Digital Transformation", link: "/digital-transformation" },
+    { id: 2, icon: "/assets/img/digital-service/low.svg", title: "IT & LOW CURRENT", link: "/it-&-low-current" },
+    { id: 3, icon: "/assets/img/digital-service/safery.svg", title: "SAFETY & SECURITY SYSTEMS",link: "/safety-&-security-systems" },
+    { id: 4, icon: "/assets/img/digital-service/data.svg", title: "DATA CENTER & IT INFRASTRUCTURE",link: "/data-center-it-Infrastructure" },
+    { id: 5, icon: "/assets/img/digital-service/network.svg", title: "NETWORK SECURITY",link: "/network-security" },
+    { id: 6, icon: "/assets/img/digital-service/audio.svg", title: "AUDIO VISUAL SYSTEMS",link: "/audio-visual-systems" },
 ],
 
 
@@ -170,7 +173,7 @@ service: [
 
 
 }
-const {img , title, info_1, info_2, over_veiw_list, overview, overview_features, bottom_info_title, bottom_info, service , materials,over_veiw_list_two}  = service_details_content
+const {img ,icon, title, info_1, info_2, over_veiw_list, overview, overview_features, bottom_info_title, bottom_info, service , materials,over_veiw_list_two}  = service_details_content
 
 
 const ServiceDetailsArea = () => {
@@ -190,28 +193,16 @@ const ServiceDetailsArea = () => {
                                     {over_veiw_list.map((item, i) => 
                                         <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                             <div className="tp-over-view-item mb-30">
-                                            {/* <img className="w-10" src={img} alt="theme-pure" /> */}
-                                                {React.cloneElement(item.icon, { className: 'icon-serverlist', size: '50px', color: '#2a8e5c' })}
-                                                <h5>{item.title}</h5>
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" />
+                                                  <h5>{item.title}</h5>
                                                 <p>{item.info}</p>
                                             </div>
                                         </div>                                    
                                     )} 
                                 </div>
                                 <div className="tp-overview-fea-list">
-                                    <p>{overview}</p>
-                                    <div className="row over-veiw-list counter-row">
-                                    {over_veiw_list_two.map((item, i) => 
-                                        <div key={i} className="col-xl-4 col-lg-4 col-md-6">
-                                            <div className="tp-over-view-item mb-30">
-                                            {/* <img className="w-10" src={img} alt="theme-pure" /> */}
-                                                {React.cloneElement(item.icon, { className: 'icon-serverlist', size: '50px', color: '#2a8e5c' })}
-                                                <h5>{item.title}</h5>
-                                                <p>{item.info}</p>
-                                            </div>
-                                        </div>                                    
-                                    )} 
-                                </div>
+                                   
+                          
 
                                     <div className="tp-bottom-info pt-20">
                                         <h4>{bottom_info_title}</h4>
@@ -229,8 +220,8 @@ const ServiceDetailsArea = () => {
                                 <ul>
                                     {service.map((item, i) => 
                                         <li key={i}>
-                                            <a href="#"><span>
-                    {React.cloneElement(item.icon, { className: 'icon-colored' })} {item.title}
+                                            <a href={item.link}><span>
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" /> {item.title}
                 </span></a>
                                         </li>                                    
                                     )} 

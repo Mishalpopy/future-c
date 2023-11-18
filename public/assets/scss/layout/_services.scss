@@ -568,10 +568,11 @@
     }
 }
 .tp-over-view-item{
-    padding: 40px;
+    padding: 20px;
     border: 1px solid #f3f3f3;
-    padding-right: 0;
-    transition: .3s;
+    padding-right: 12px;
+    transition: 0.3s;
+    min-height: 50vh;
     & .icon-serverlist svg{
         width: 60px;
         color: var(--tp-theme-1);

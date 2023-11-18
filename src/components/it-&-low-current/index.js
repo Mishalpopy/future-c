@@ -9,7 +9,7 @@ const ItandlowDetails = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbDigital title="IT And Low Solutions" innertitle="Future Connect" />
+      <BreadcrumbDigital title="IT And Low Current" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

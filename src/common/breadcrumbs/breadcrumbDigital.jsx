@@ -5,7 +5,7 @@ const BreadcrumbDigital = ({title="Connectivity and Digital Presence" , innertit
     return (
         <>
             <section className="breadcrumb__area include-bg pt-200 pb-200" 
-                  style={{backgroundImage: `url(/assets/img/breadcrumb/digital-slider.jpg)`}}>
+                  style={{backgroundImage: `url(/assets/img/breadcrumb/low-slider.jpg)`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-12">

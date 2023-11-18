@@ -18,67 +18,57 @@ import { FaSatelliteDish } from 'react-icons/fa';
 
 
 const service_details_content = {
-    img: "/assets/img/services/service-details-bg.jpg",
+    img: "/assets/img/itandlow/bg.jpg",
     title: "Service Overview",
-    info_1: <>Explore the world of Low Current Systems, a specialized branch of Electrical Engineering that orchestrates systems operating on low current signals with extra-low voltage. From small endpoints to expansive central control systems, Low Current Systems delivers end-to-end services, ensuring seamless operation for each integrated system.</>,
+    info_1: <>Welcome to the future of connectivity and control with our innovative range of solutions at Future Connect. Explore the seamless integration of technology into various aspects of your environment, designed to elevate efficiency and simplify operations effortlessly.<br></br>At Future Connect, we redefine connectivity and control, offering solutions that seamlessly integrate into your environment. Embrace the future of technology with us, where efficiency meets innovation, and control is simplified. Future Connect: Connecting Tomorrow, Today.</>,
 
 over_veiw_list: [
     {id: 1,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdComputer />,
-     title: "IT Infrastructure Solutions",
-     info: "Tailor your IT infrastructure to the demands of your operations with our comprehensive Low Current Systems Integration."},
+         icon: "/assets/img/itandlow/wireless.svg",
+     title: "Wireless Network Point Installations",
+     info: "Extend your network reach with our Wireless Network Point Installations. Achieve seamless connectivity effortlessly."},
     {id: 2,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <SiOpenaccess />,
-     title: "Access Guardian Control System",
-     info: "Elevate security with Access Guardian, an advanced Access Control System designed for efficient and secure entry management.",
+         icon: "/assets/img/itandlow/building.svg",
+     title: "Building Management Systems",
+     info: "Efficiently control and manage building operations with our Building Management Systems. Enhance automation effortlessly.",
     },
     {id: 3,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdOutlineSurroundSound />,
-     title: "SoundSync Public Address",
-    info: "Ensure clear communication with SoundSync Public Address—a state-of-the-art system for broadcasting announcements in public spaces."},
+         icon: "/assets/img/itandlow/ip.svg",
+     title: "Public Address Systems",
+    info: "Ensure clear communication with our Public Address Systems. Broadcast messages seamlessly."},
     {id: 4,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <SiIntercom />,
-     title: "InterCom Connect",
-    info: "Foster seamless communication within your premises with InterCom Connect—an advanced Intercom System."},
+         icon: "/assets/img/itandlow/iptv.svg",
+     title: "IPTV Systems",
+    info: "Experience the future of television with our IPTV Systems. Enjoy high-quality content effortlessly."},
     {id: 5,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <FaSatelliteDish />,
-     title: "Satellite Harmony Solutions",
-    info:"Enhance entertainment options with Satellite Harmony Solutions—offering CATV, MATV, and IPTV systems for a diverse range of broadcasting."},
+         icon: "/assets/img/itandlow/nurse.svg",
+     title: "Nurse Call Systems",
+    info:"Prioritize healthcare with our Nurse Call Systems. Ensure quick and efficient communication effortlessly."},
     {id: 7,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdVideoStable />,
-     title: "SonicVisual Audiovisual Suite ",
-    info:"Immerse yourself in superior audiovisual experiences with SonicVisual—a comprehensive Audiovisual System."},
+         icon: "/assets/img/itandlow/home.svg",
+     title: "Home Automation Systems",
+    info:"Transform your home into a smart living space with our Home Automation Systems. Simplify control effortlessly."},
     {id: 8,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <BsFillClockFill />,
-     title: "ChronoSync Master Clock",
-    info:"Synchronize operations with ChronoSync Master Clock—a precise timekeeping system for seamless coordination."},
+         icon: "/assets/img/itandlow/clcok.svg",
+     title: "Master Clock Systems",
+    info:"Keep everything in sync with our Master Clock Systems. Manage time effortlessly."},
     {id: 10,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <BsFillShieldFill />,
-     title: "IntrusionGuard Sentinel",
-    info:"Ensure security with IntrusionGuard Sentinel—an Intrusion Detection System designed to safeguard your premises."},
+         icon: "/assets/img/itandlow/que.svg",
+     title: "Queue Management Systems",
+    info:"Organize and streamline queues with our Queue Management Systems. Improve efficiency effortlessly."},
        {id: 13,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdQueue />,
-     title: "QueueQuest Pro",
-    info:"Streamline customer service with QueueQuest Pro—a Queuing System designed for efficient and organized waiting."},
-    {id: 13,
-        img: "/assets/img/services/service-details-bg.jpg",
-         icon: <BiSolidMobileVibration />,
-     title: "MobileSec Jammers",
-    info:"Ensure controlled mobile usage with MobileSec Jammers—an advanced solution for managing mobile communication in restricted areas."},
-    {id: 13,
-        img: "/assets/img/services/service-details-bg.jpg",
-         icon: <BsFillLightbulbFill />,
-     title: "ElectraLight Solutions",
-    info:"Illuminate spaces with efficiency and style using ElectraLight Solutions—an integrated Electrical & Lighting system."},
+         icon: "/assets/img/itandlow/parking.svg",
+     title: "Parking Management Systems",
+    info:"Optimize parking spaces with our Parking Management Systems. Ensure smooth operations effortlessly."},
 
 ],
 over_veiw_list_two: [
@@ -148,14 +138,16 @@ over_veiw_list_two: [
     ],
 
     bottom_info_title: "Why Choose Future Connect",
-    bottom_info: <>Dive into the realm of Low Current Systems Integration, where precision meets innovation in Electrical Engineering. Our end-to-end services ensure seamless operation for a variety of integrated systems, all orchestrated to function on low current signals with extra-low voltage. Tailor your IT infrastructure with our comprehensive solutions and elevate security with the Access Guardian Control System. From clear communication through SoundSync Public Address to fostering seamless internal communication with InterCom Connect, our offerings cover a spectrum of needs. Enhance entertainment options with Satellite Harmony Solutions, immerse yourself in superior audiovisual experiences with SonicVisual, and synchronize operations with ChronoSync Master Clock for precise timekeeping. Streamline parking with ParkEase Pro, ensure security with IntrusionGuard Sentinel, and optimize healthcare communication with HealthCall Plus. EcoControl BMS Systems help manage energy consumption sustainably, QueueQuest Pro streamlines customer service, and MobileSec Jammers control mobile usage in restricted areas. Illuminate spaces with efficiency and style using ElectraLight Solutions—an integrated Electrical & Lighting system. In the world of Low Current Systems, we bring you solutions that redefine efficiency, security, and connectivity.</>,
+    bottom_info: <>Future Connect invites you to embrace a future where connectivity meets control seamlessly. Our innovative solutions, ranging from wireless network installations to advanced home automation systems, redefine how you interact with and manage your environment. Whether you are optimizing building operations, prioritizing healthcare communication, or enhancing your home's intelligence, our technologies work effortlessly to simplify, streamline, and elevate your experience. At Future Connect, we don't just provide solutions; we offer a vision of a connected and automated future where efficiency and innovation go hand in hand. Join us in shaping a tomorrow where technology works effortlessly to enhance your world. Future Connect: Connecting Effortlessly, Empowering Tomorrow.</>,
 
-service: [
-    { id: 1, icon: <GrTechnology />, title: "Digital Solutions" },
-    { id: 2, icon: <GrShieldSecurity />, title: "Security Solutions" },
-    { id: 3, icon: <AiOutlineSolution />, title: "Operations Solutions" },
-    { id: 4, icon: <FaHotel />, title: "Hospitality Solutions" },
-],
+    service: [
+        { id: 1, icon: "/assets/img/digital-service/software.svg", title: "Digital Transformation", link: "/digital-transformation" },
+        { id: 2, icon: "/assets/img/digital-service/low.svg", title: "IT & LOW CURRENT", link: "/it-&-low-current" },
+        { id: 3, icon: "/assets/img/digital-service/safery.svg", title: "SAFETY & SECURITY SYSTEMS",link: "/safety-&-security-systems" },
+        { id: 4, icon: "/assets/img/digital-service/data.svg", title: "DATA CENTER & IT INFRASTRUCTURE",link: "/data-center-it-Infrastructure" },
+        { id: 5, icon: "/assets/img/digital-service/network.svg", title: "NETWORK SECURITY",link: "/network-security" },
+        { id: 6, icon: "/assets/img/digital-service/audio.svg", title: "AUDIO VISUAL SYSTEMS",link: "/audio-visual-systems" },
+    ],
 
 
     materials: [
@@ -186,8 +178,7 @@ const ServiceDetailsArea = () => {
                                     {over_veiw_list.map((item, i) => 
                                         <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                             <div className="tp-over-view-item mb-30">
-                                            {/* <img className="w-10" src={img} alt="theme-pure" /> */}
-                                                {React.cloneElement(item.icon, { className: 'icon-serverlist', size: '50px', color: '#2a8e5c' })}
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" />
                                                 <h5>{item.title}</h5>
                                                 <p>{item.info}</p>
                                             </div>
@@ -213,8 +204,8 @@ const ServiceDetailsArea = () => {
                                 <ul>
                                     {service.map((item, i) => 
                                         <li key={i}>
-                                            <a href="#"><span>
-                    {React.cloneElement(item.icon, { className: 'icon-colored' })} {item.title}
+                                        <a href={item.link}><span>
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" /> {item.title}
                 </span></a>
                                         </li>                                    
                                     )} 
