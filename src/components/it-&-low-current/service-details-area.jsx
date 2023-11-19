@@ -70,6 +70,12 @@ over_veiw_list: [
      title: "Parking Management Systems",
     info:"Optimize parking spaces with our Parking Management Systems. Ensure smooth operations effortlessly."},
 
+    {id: 13,
+        img: "/assets/img/services/service-details-bg.jpg",
+         icon: "/assets/img/itandlow/ip-call.svg",
+     title: "IP Telephone System",
+    info:"Upgrade your communication with our IP Telephone System. Experience enhanced connectivity and seamless voice communication effortlessly."},
+
 ],
 over_veiw_list_two: [
     {id: 1,
@@ -108,6 +114,12 @@ over_veiw_list_two: [
          icon: <SiGooglemeet />,
      title: "MeetMinder Scheduler",
     info:"Optimize your meeting spaces with MeetMinder Scheduler—an intelligent Meeting Room Scheduler/Solution."},
+    {id: 9,
+        img: "/assets/img/services/service-details-bg.jpg",
+         icon: <BiNetworkChart />,
+     title: "ConnectSwitch Solutions",
+    info:"Ensure robust network connectivity with ConnectSwitch Solutions—offering high-quality Switches & Access Points for seamless communication."},
+
     {id: 9,
         img: "/assets/img/services/service-details-bg.jpg",
          icon: <BiNetworkChart />,

@@ -21,36 +21,42 @@ import { GiFilmProjector } from 'react-icons/gi';
 const service_details_content = {
     img: "/assets/img/services/service-details-bg.jpg",
     title: "Service Overview",
-    info_1: <>At Future Connect, we stand as a premier Audio Visual System integrator dedicated to revolutionizing communication experiences in KSA. Our expertise lies in supplying, installing, and supporting cutting-edge multimedia presentation technology, video and audio conferencing systems, and bespoke communication products tailored to meet the unique needs of our clients.</>,
+    info_1: <>Discover a world of immersive audiovisual solutions that transform ordinary events into extraordinary experiences. At Future Connect, we specialize in delivering cutting-edge services to enhance various environments. Explore our range of services designed to elevate the quality of live performances, presentations, meetings, and more.</>,
 
 over_veiw_list: [
     {id: 1,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <SiGotomeeting />,
-     title: "Meeting Room AV Solutions",
-     info: "Transform your meetings with our Meeting Room AV Solutions. We provide high-definition projection technology, ensuring crystal-clear visuals, and incorporate video conferencing and telepresence systems for seamless remote participation and distance learning experiences."},
+     icon: "/assets/img/audio/stage.svg",
+     title: "Stage Lighting",
+     info: "Enhancing live performances with dynamic illumination and atmospheric effects."},
     {id: 2,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <GiFilmProjector />,
-     title: "Auditoriums and Theaters Solutions",
-     info: "Enrich the audio-visual experience in auditoriums and theaters with our specialized solutions. From immersive projection technology to advanced audio systems, we tailor solutions that captivate and engage audiences.",
+       icon: "/assets/img/audio/wall.svg",
+     title: "Video Wall",
+     info: "Multimedia display using a connected grid of screens for impactful visual presentations",
     },
     {id: 3,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <LuProjector />,
-     title: "Conference Room AV Systems",
-    info: "Empower your conference rooms with state-of-the-art AV systems. Future Connect delivers solutions that enhance collaboration, ensuring impactful presentations and efficient communication within conference settings."},
+   icon: "/assets/img/audio/room.svg",
+     title: "Meeting Room Solutions",
+    info: "Integrated technology for efficient and collaborative meeting environments."},
     {id: 4,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <LiaPhotoVideoSolid />,
-     title: "Video Wall Display Solutions",
-    info: "Make a statement with our Video Wall Display Solutions. We craft visually stunning displays that captivate attention and convey information effectively, whether it's for informational purposes or creating a dynamic visual experience."},
+         iicon: "/assets/img/audio/audi.svg",
+     title: "Auditorium Theater Solutions",
+    info: "Tailored audiovisual solutions for optimal auditorium and theater experiences."},
     {id: 5,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <BsFillDisplayFill />,
-     title: "Interactive Display Solutions",
-    info:"Foster engagement with our Interactive Display Solutions. From interactive whiteboards to touchscreen displays, we provide innovative solutions that encourage participation and collaboration during presentations and meetings."},
+         icon: "/assets/img/audio/sound.svg",
+     title: "Sound Reinforcement & Acoustic Solutions",
+    info:"Elevating audio quality and managing acoustics for superior sound experiences."},
    
+    {id: 5,
+        img: "/assets/img/services/service-details-bg.jpg",
+         icon: "/assets/img/audio/dis.svg",
+     title: "Discussion & Interpretation Systems",
+    info:"Facilitating effective communication through advanced discussion and language interpretation systems."},
+
 ],
 over_veiw_list_two: [
     {id: 1,
@@ -119,7 +125,7 @@ over_veiw_list_two: [
     ],
 
     bottom_info_title: "IT Infrastructure Solutions",
-    bottom_info: <>IT infrastructure forms the backbone of modern enterprises, encompassing the hardware and software components essential for efficient IT environments. Whether deployed within a cloud computing system or within an organization's facilities, IT infrastructure components include servers, storage systems, networking equipment, and software applications.</>,
+    bottom_info: <>AtFuture Connect, we bring innovation and excellence to every aspect of audiovisual technology. Whether you're aiming to create a mesmerizing performance, an impactful presentation, or a collaborative meeting space, our services are crafted to meet your unique needs. Elevate your experiences with our audiovisual solutions that redefine the standard of excellence.</>,
 
 service: [
     { id: 1, icon: <GrTechnology />, title: "Digital Transformation" },
@@ -161,7 +167,7 @@ const ServiceDetailsArea = () => {
                                         <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                             <div className="tp-over-view-item mb-30">
                                             {/* <img className="w-10" src={img} alt="theme-pure" /> */}
-                                                {React.cloneElement(item.icon, { className: 'icon-serverlist', size: '50px', color: '#2a8e5c' })}
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" /> 
                                                 <h5>{item.title}</h5>
                                                 <p>{item.info}</p>
                                             </div>

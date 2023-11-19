@@ -49,8 +49,8 @@ over_veiw_list: [
     {id: 5,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/intru.svg",
-     title: "Intrusion Alarm Systems",
-    info:"Secure your space against unauthorized access with our Intrusion Alarm Systems. Enhance security effortlessly."},
+     title: "Intrusion Alarm And Intercom Systems",
+    info:"Secure your space with our integrated Intrusion Alarm and Intercom Systems. Ensure comprehensive protection and seamless communication effortlessly."},
     {id: 7,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/smoke.svg",
@@ -59,13 +59,9 @@ over_veiw_list: [
     {id: 8,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/audi2.svg",
-     title: "AudioAlert Public Address Systems",
-    info:"Ensure clear communication with AudioAlert Public Address Systems—an integral part of emergency communication systems."},
-    {id: 9,
-        img: "/assets/img/services/service-details-bg.jpg",
-        icon: "/assets/img/safety/apeaking.svg",
-     title: "Public Address Systems",
-    info:"Facilitate clear communication with our Public Address Systems. Broadcast messages seamlessly."},
+     title: "Public Address and Voice Alarm Systems",
+    info:"Facilitate clear communication and ensure public safety with our integrated systems. Deliver announcements and evacuation guidance effortlessly."},
+
     {id: 10,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/road.svg",
@@ -79,18 +75,23 @@ over_veiw_list: [
       {id: 12,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/barries.svg",
-     title: "Barriers",
+     title: "Gate Barriers",
     info:"Manage traffic and access control with our Barriers. Ensure smooth operation effortlessly"},
     {id: 13,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/gate.svg",
-     title: "Gates & Operators",
+     title: "Speed Gates",
     info:"Establish a secure perimeter with our Fencing System. Enhance security effortlessly."},
     
     {id: 13,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/walk.svg",
      title: "Walkthrough & Metal Detector",
+    info:"Enhance security screening with our Walkthrough & Metal Detector solutions. Ensure thorough inspections effortlessly."},
+    {id: 13,
+        img: "/assets/img/services/service-details-bg.jpg",
+        icon: "/assets/img/safety/tri.svg",
+     title: "Tripod Turnstile",
     info:"Enhance security screening with our Walkthrough & Metal Detector solutions. Ensure thorough inspections effortlessly."},
 
 ],
@@ -139,7 +140,7 @@ service: [
 const {img , title, info_1, info_2, over_veiw_list, overview, overview_features, bottom_info_title, bottom_info, service , materials,over_veiw_list_two}  = service_details_content
 
 
-const ServiceDetailsArea = () => {
+const  ServiceDetailsArea = () => {
     return (
         <>
             <div className="tp-service-details-area pt-115 pb-115">

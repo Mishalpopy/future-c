@@ -26,8 +26,7 @@ const menu_data = [
       { link: "/digital-transformation", title: "Digital Transformation" }, 
       { link: "/it-&-low-current", title: "IT & Low Current" },
       { link: "/safety-&-security-systems", title: "Safety & Security Systems" }, 
-      { link: "/data-center-it-Infrastructure", title: "Data Center & IT Infrastructure" },
-      { link: "/network-security", title: "Network Security" },
+      { link: "/data-center-network-security", title: "Data Center & Network Security" },
       { link: "/audio-visual-systems", title: "Audio Visual Systems" },
 
 
@@ -42,14 +41,7 @@ const menu_data = [
     link: "/",
     
   },
-  {
-    id: 5,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Blog",
-    link: "/",
-    
-  },
+
 
 
   

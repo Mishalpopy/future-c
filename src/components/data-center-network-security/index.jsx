@@ -9,7 +9,7 @@ const  DataCenterITInfrastructure = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbDigital title="IT And Low Solutions" innertitle="Future Connect" />
+      <BreadcrumbDigital title="Data Center & Network Security" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

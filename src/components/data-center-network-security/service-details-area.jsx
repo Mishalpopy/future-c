@@ -19,37 +19,48 @@ import { GiCoolSpices } from 'react-icons/gi';
 
 
 const service_details_content = {
-    img: "/assets/img/services/service-details-bg.jpg",
+    img: "/assets/img/breadcrumb/data.jpg",
     title: "Service Overview",
-    info_1: <>Explore the world of Low Current Systems, a specialized branch of Electrical Engineering that orchestrates systems operating on low current signals with extra-low voltage. From small endpoints to expansive central control systems, Low Current Systems delivers end-to-end services, ensuring seamless operation for each integrated system.</>,
+    info_1: <>Unlock the potential of your business with our comprehensive Data Center & Network Security services. At Future Connect, we offer a suite of cutting-edge solutions designed to propel your network infrastructure into the future. From efficient data flow management and seamless wireless connectivity to robust server environments and secure cloud solutions, we've got your network needs covered.</>,
 
 over_veiw_list: [
     {id: 1,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <GiCoolSpices />,
-     title: "ChillPro Precision Cooling",
-     info: "Maintain optimal operating conditions for critical IT equipment with ChillPro Precision Cooling. This advanced solution regulates temperature and humidity, safeguarding your IT infrastructure from environmental fluctuations."},
+             icon: "/assets/img/data/switch.svg",
+     title: "Switching",
+     info: "Efficiently manage data flow with our Switching/Routing solutions. Optimize network performance effortlessly."},
     {id: 2,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdNetworkLocked />,
-     title: "ConnectRise Networking Connectivity",
-     info: "Elevate your network infrastructure with ConnectRise Networking Connectivity. Ensure seamless communication and high-speed data transfer for robust and reliable networking essential for IT operations.",
+                icon: "/assets/img/data/lan.svg",
+     title: "Wireless LAN",
+     info: "Experience seamless connectivity with our Wireless LAN solutions. Enjoy high-speed and reliable wireless networks effortlessly.",
     },
     {id: 3,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdOutlineSurroundSound />,
-     title: "SecureEntry Access Control",
-    info: "Fortify IT security with SecureEntry Access Control. These advanced systems regulate and monitor access points, enhancing overall facility safety by controlling entry and monitoring user activities within IT environments."},
+        icon: "/assets/img/data/data.svg",
+     title: "Data Centers",
+    info: "Power your business with our Data Centers. Ensure secure and efficient data storage and management effortlessly."},
     {id: 4,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdPower />,
-     title: "PowerVault UPS (Uninterruptible Power Supply)",
-    info: "Safeguard your IT equipment against power disruptions with PowerVault UPS. Uninterruptible Power Supply ensures continuous operation during outages, protecting critical data and systems."},
+        icon: "/assets/img/data/cable.svg",
+     title: "Structured Cabling",
+    info: "Establish a reliable network foundation with our Structured Cabling solutions. Enhance connectivity effortlessly."},
     {id: 5,
         img: "/assets/img/services/service-details-bg.jpg",
-         icon: <MdBatteryAlert />,
-     title: "EnergySwift Batteries",
-    info:"Ensure consistent power supply for your IT infrastructure with EnergySwift Batteries. These reliable energy storage solutions act as a backup power source, providing uninterrupted power during outages and fluctuations."},
+               icon: "/assets/img/data/server.svg",
+     title: "Server",
+    info:"Fuel your operations with our Server solutions. Ensure a robust and responsive computing environment effortlessly."},
+   
+    {id: 5,
+        img: "/assets/img/services/service-details-bg.jpg",
+               icon: "/assets/img/data/storage.svg",
+     title: "Storage",
+    info:"Efficiently manage and secure data with our Storage solutions. Optimize storage capacity effortlessly."},
+    {id: 5,
+        img: "/assets/img/services/service-details-bg.jpg",
+               icon: "/assets/img/data/cloud.svg",
+     title: "Cloud",
+    info:"Embrace the power of the cloud with our Cloud solutions. Scale and innovate effortlessly."},
    
 ],
 over_veiw_list_two: [
@@ -119,7 +130,7 @@ over_veiw_list_two: [
     ],
 
     bottom_info_title: "IT Infrastructure Solutions",
-    bottom_info: <>IT infrastructure forms the backbone of modern enterprises, encompassing the hardware and software components essential for efficient IT environments. Whether deployed within a cloud computing system or within an organization's facilities, IT infrastructure components include servers, storage systems, networking equipment, and software applications.</>,
+    bottom_info: <>At Future Connect, we are committed to delivering state-of-the-art solutions that empower your business, ensuring you stay ahead in the dynamic world of data and network security. Partner with us for a future-proof network infrastructure that fuels growth and innovation.</>,
 
     service: [
         { id: 1, icon: <GrTechnology />, title: "Digital Transformation" },
@@ -160,9 +171,7 @@ const ServiceDetailsArea = () => {
                                     {over_veiw_list.map((item, i) => 
                                         <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                             <div className="tp-over-view-item mb-30">
-                                            {/* <img className="w-10" src={img} alt="theme-pure" /> */}
-                                                {React.cloneElement(item.icon, { className: 'icon-serverlist', size: '50px', color: '#2a8e5c' })}
-                                                <h5>{item.title}</h5>
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" />                                                <h5>{item.title}</h5>
                                                 <p>{item.info}</p>
                                             </div>
                                         </div>                                    

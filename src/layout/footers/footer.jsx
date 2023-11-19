@@ -16,9 +16,9 @@ const footer_content = {
 
    pages: [
       {title: "About Us", link: "/about"},
-      {title: "Contact Us", link: "#"},
-      {title: "Careers", link: "#"},
-      {title: "Partners", link: "#"}, 
+      {title: "Contact Us", link: "/contact"},
+      {title: "Solutions", link: "/service"},
+      {title: "Hospital Hub", link: "#"}, 
    ]
    
    
@@ -43,7 +43,7 @@ const Footer = ({style_1}) => {
                <ul class="social-icons col-6">
 						<li><i className="fab fa-facebook" /></li>
 						<li><i className="fab fa-instagram" /></li>
-						<li><i className="fab fa-instagram" /></li>
+				
 					</ul>
                   </div>
                </div>
