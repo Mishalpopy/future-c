@@ -10,10 +10,10 @@ const Service = () => {
   return (
     <>
       <HeaderOne />
-      <Breadcrumb title="Service" innertitle="Our Services" />
+      <Breadcrumb title="Solution" innertitle="Our Solutions" />
       <ServiceArea />
       <FeatureArea />
-      <PricingArea />
+     
       <Footer />
     </>
   );

@@ -5,12 +5,15 @@ import React from 'react';
 const fetures_content = {
     bg_img: "/assets/img/feature/feature-bg.jpg",
     subtitle: "features",
-    title: "Opting For Security & Making You Free",
+    title: "Elevate Your Enterprise with Cutting-Edge Solutions",
     fetures: [
-        {icon: "flaticon-spy-camera", title: "Full-Time Device Protection"},
-        {icon: "flaticon-secure", title: "Live Footage Collection"},
-        {icon: "flaticon-global", title: "Drone CCTV Discussion"},
-        {icon: "flaticon-database", title: "Hacker & Custom Solution"},
+        {icon: "/assets/img/services/digitals.svg", title: "Seamless Connectivity"},
+        {icon: "/assets/img/services/it.svg", title: "Optimal Business Performance"},
+        {icon: "/assets/img/services/cctv.svg", title: "Secure Environments"},
+        {icon: "/assets/img/services/data.svg", title: "Digital Excellence Foundations"},
+        {icon: "/assets/img/services/network.svg", title: "Digital Landscape Protection"},
+        {icon: "/assets/img/services/audi2.svg", title: "Unmatched Audio-Visual Experiences"},
+
     ]
     
 }
@@ -34,7 +37,7 @@ const FeatureArea = () => {
                             {fetures.map((item, i)  => 
                                 <div key={i} className="col-lg-6 col-md-6">
                                     <div className="fea-list d-flex align-items-center mb-30">
-                                        <i className={item.icon}></i>
+                                        <img src={item.icon} width={30}></img>
                                         <div className="fea-ctn pl-20">
                                         <h5 className="m-0">{item.title}</h5>
                                         </div>
@@ -43,7 +46,7 @@ const FeatureArea = () => {
                             )} 
                             <div className="fea-button pt-20">
                                 <Link className="tp-btn mr-25" href="/contact">Get In Touch <i className="fal fa-long-arrow-right"></i></Link>
-                                <Link className="tp-black-btn-2" href="/contact">7 Day Free Trail</Link>
+                                
                             </div>
                         </div>
                         </div>

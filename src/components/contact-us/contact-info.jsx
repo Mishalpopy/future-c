@@ -2,15 +2,7 @@ import React from 'react';
 
 // contact info data
 const contact_info_data = [
-    {
-        id: 1, 
-        icon: "fas fa-phone-alt",
-        title: "Call Us Here",
-        info_1: "+971 56 371 7846",
-        info_2: "+971 56 371 7846",
-        link_1: "tel:(098)89789090,+09089098987-0",
-        link_2: "tel:1234162442",
-    },
+
     {
         id: 2, 
         icon: "fas fa-envelope",
@@ -24,7 +16,7 @@ const contact_info_data = [
         id: 3, 
         icon: "fas fa-map-marker-alt",
         title: "KSA - Office Address",
-        info_1: "Khalid Bin Moawiva street Al Rayyan,",
+        info_1: "Khalid Bin Moawiya street Al Rayyan,",
         info_2: " Jeddah, Kingdom of Saudi Arabia ",
         link_1: "#",
         link_2: "#",
@@ -33,8 +25,8 @@ const contact_info_data = [
         id: 3, 
         icon: "fas fa-map-marker-alt",
         title: "UAE - Office Address",
-        info_1: "Khalid Bin Moawiva street Al Rayyan,",
-        info_2: " Jeddah, Kingdom of Saudi Arabia ",
+        info_1: "1003 Park Palace World Trade Center,",
+        info_2: " Dubai, United Arab Emirates",
         link_1: "#",
         link_2: "#",
        },
@@ -48,7 +40,7 @@ const ContactInfo = () => {
                 <div className="container">
                     <div className="row contact-last-child">
                         {contact_info_data.map((item, i) => 
-                            <div key={i} className="col-xl-3 col-lg-3 col-md-6">
+                            <div key={i} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="contact-info-item text-center mb-30">
                                     <i className={item.icon}></i>
                                     <h5>{item.title}</h5>

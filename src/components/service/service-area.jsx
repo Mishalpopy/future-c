@@ -15,13 +15,12 @@ const ServiceArea = () => {
                                     </div>
                                     <div className="tpservices__content">
 
-                                        <i className="flaticon-cctv-1"></i>
 
                                         <h3 className="tpservices__title">{item.title}</h3>
                                         <p>{item.description}</p>
                                     </div>
                                     <div className="tpservices__btn">
-                                        <a className="tp-btn w-100" href="#">Service Details <i className="fal fa-long-arrow-right"></i></a>
+                                        <a className="tp-btn w-100" href={item.link}>Service Details <i className="fal fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>  

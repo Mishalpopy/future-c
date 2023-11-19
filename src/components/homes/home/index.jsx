@@ -24,8 +24,7 @@ const HomeOne = () => {
 
     
       <FeatureArea />
-      <TestimonialArea />
-      <BrandArea />
+      
       
       
       <Footer />
