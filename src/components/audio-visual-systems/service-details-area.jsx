@@ -19,7 +19,7 @@ import { GiFilmProjector } from 'react-icons/gi';
 
 
 const service_details_content = {
-    img: "/assets/img/services/service-details-bg.jpg",
+    img: "/assets/img/breadcrumb/audio2.jpg",
     title: "Service Overview",
     info_1: <>Discover a world of immersive audiovisual solutions that transform ordinary events into extraordinary experiences. At Future Connect, we specialize in delivering cutting-edge services to enhance various environments. Explore our range of services designed to elevate the quality of live performances, presentations, meetings, and more.</>,
 
