@@ -17,7 +17,8 @@ const Sidebar = ({isOpen, setIsOpen}) => {
                         <h3>CONTACT US</h3>
                     </div>
                     <ul className="sidebar-list">
-                        <li>Al-Baghdadiyah Al-Gharbiyah Jeddah, KSA</li>
+                        <li>Al-Khalid Bin Moawiva street Al Rayyan,
+Jeddah, Kingdom of Saudi Arabia</li>
                         <li>+971 56 371 784</li>
                         <li>info@futureconnect.com</li>
                     </ul>
