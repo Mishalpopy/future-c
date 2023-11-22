@@ -35,10 +35,21 @@ const menu_data = [
   },
   {
     id: 4,
-    mega_menu: false,
-    has_dropdown: false,
+    mega_menu: true,
+    has_dropdown: true,
     title: "Hospitality Hub",
     link: "/",
+    sub_menus: [
+      { link: "/Power-Charging-&-USB", title: "Power Charging & USB" }, 
+      { link: "/Multimedia-Audio-&-Charging", title: "Multimedia Audio & Charging" },
+      { link: "/Combination-Power-&-Charging", title: "Combination Power & Charging" }, 
+      { link: "/Alarm-Clocks-&-Audio", title: "Alarm Clocks & Audio" },
+      { link: "/Wireless-Charging", title: "Wireless Charging" },
+      { link: "/Travel-Accessories", title: "Travel Accessories" },
+      { link: "/Wireless-Charging", title: "Wireless Charging" },
+
+      
+    ],
     
   },
 
