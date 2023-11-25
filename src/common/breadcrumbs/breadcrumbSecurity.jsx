@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BreadcrumbDigital = ({title=" Future-Proof Network Solutions" , innertitle="Transforming the Future" }) => {
+const BreadcrumbSecurity = ({title=" Future-Proof Network Solutions" , innertitle="Transforming the Future" }) => {
     return (
         <>
             <section className="breadcrumb__area include-bg pt-200 pb-200" 
-                  style={{backgroundImage: `url(/assets/img/breadcrumb/digital.jpg)`}}>
+                  style={{backgroundImage: `url(/assets/img/breadcrumb/security.jpg)`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xxl-12">
@@ -25,4 +25,4 @@ const BreadcrumbDigital = ({title=" Future-Proof Network Solutions" , innertitle
     );
 };
 
-export default BreadcrumbDigital;
+export default BreadcrumbSecurity;

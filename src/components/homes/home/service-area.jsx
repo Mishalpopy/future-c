@@ -13,7 +13,7 @@ const service_content = {
          img: "/assets/img/services/sv-7.jpg",
         
          title: "Digital Transformation",
-         description: <>Services encompass Voice Solutions, Video Conferencing, Mobility Solutions, Call Recording, Contact Center Setup, Nurse Call Systems, Billing Solutions, and Intercom Systems</>,
+         description: <>Welcome to Future Connect, your gateway to cutting-edge Digital Transformation Solutions. Explore our diverse range of services designed to revolutionize the way you do business.</>,
          fetures: [
             "Seamless Communication",
             "Mobility and Flexibility",
@@ -27,16 +27,16 @@ const service_content = {
          tab_id:"nav-cctv",
          active: "",
          aria_labelledby: "IT & Low Current",
-         img: "/assets/img/services/sv-8.jpg",
+         img: "/assets/img/services/itLow.jpg",
          price: "35",
-         title: "Networking and Cybersecurity",
-         description: <>Services include Network Architecture, Virtualization, Switching/Routing, Wireless LAN, Data Center solutions, Structured Cabling, and IT solutions like server management, storage, and cybersecurity.</>,
+         title: "IT & Low Current",
+         description: <>Welcome to the future of connectivity and control with our innovative range of solutions at Future Connect. Explore the seamless integration of technology into various aspects of your environment, designed to elevate efficiency and simplify operations effortlessly.</>,
          fetures: [
-            "Robust Network Infrastructure",
-            "Data Security and Protection",
-            "Hybrid Cloud and Virtualization",
-            "Data Backup and Recovery",
-            "Compliance and Regulatory Expertise",
+            "Seamless Integration",
+            "Efficiency and Innovation",
+            "Simplified Operations",
+            "Connecting Tomorrow, Today",
+
          ]
       },
       {
@@ -44,27 +44,27 @@ const service_content = {
          tab_id:"nav-security",
          active: "",
          aria_labelledby: "nav-security-tab",
-         img: "/assets/img/services/sv-9.jpg",
+         img: "/assets/img/services/sercurity.jpg",
          price: "45",
          title: "Safety & Security Systems",
          description: <>Services encompass Physical Security Solutions such as CCTV, Site Monitoring, Access Control, and Gate Barriers, as well as Fire Detection, Public Address/Voice Evacuation, Firefighting, and Control Room Setups.</>,
          fetures: [
-            "Comprehensive Safety Solutions",
-            "CCTV and Site Monitoring",
-            "Access Control and Intrusion Systems",
-            "Efficient Time and Attendance Systems",
-            "Automation for Energy Efficiency",
+            "Prioritizing Asset Protection",
+            "Expert Implementation",
+            "Strategic Collaboration",
+            "Skilled Workforce",
+
          ]
       },
       {
          id: 4,
-         tab_id:"nav-cyber",
+         tab_id:"nav-data",
          active: "",
-         aria_labelledby: "nav-cyber-tab",
-         img: "/assets/img/services/sv-10.jpg",
+         aria_labelledby: "nav-data-tab",
+         img: "/assets/img/services/dataCen.jpg",
          price: "42",
-         title: "Digital Transformation and Development",
-         description: <>Services include Digital Signage Solutions, Queuing Systems, Smart Boards, and Digital Archiving for a smoother digital transition.</>,
+         title: "DATA CENTER & NETWORK SECURITY",
+         description: <>Unlock the potential of your business with our comprehensive Data Center & Network Security services. At Future Connect, we offer a suite of cutting-edge solutions designed to propel your network infrastructure into the future. </>,
          fetures: [
             "Cutting-Edge Digital Signage",
             "Innovative Development Services",
@@ -73,29 +73,13 @@ const service_content = {
             "Business Intelligence and ERP Solutions",
          ]
       },
-      {
-         id: 5,
-         tab_id:"nertwork-safety",
-         active: "",
-         aria_labelledby: "nav-cyber-tab",
-         img: "/assets/img/services/sv-10.jpg",
-         price: "42",
-         title: "Digital Transformation and Development",
-         description: <>Services include Digital Signage Solutions, Queuing Systems, Smart Boards, and Digital Archiving for a smoother digital transition.</>,
-         fetures: [
-            "Cutting-Edge Digital Signage",
-            "Innovative Development Services",
-            "Customized Application Development",
-            "Data Security and Compliance",
-            "Business Intelligence and ERP Solutions",
-         ]
-      },
+
       {
          id: 6,
-         tab_id:"audio-visual",
+         tab_id:"nav-audio",
          active: "",
-         aria_labelledby: "nav-cyber-tab",
-         img: "/assets/img/services/sv-10.jpg",
+         aria_labelledby: "nav-audio-tab",
+         img: "/assets/img/services/audio.jpg",
          price: "42",
          title: "Digital Transformation and Development",
          description: <>Services include Digital Signage Solutions, Queuing Systems, Smart Boards, and Digital Archiving for a smoother digital transition.</>,
@@ -136,11 +120,10 @@ const ServiceArea = () => {
                         <button className="nav-links" id="nav-security-tab" data-bs-toggle="tab" data-bs-target="#nav-security"
                            type="button" role="tab" aria-controls="nav-security" aria-selected="false">Safety & Security Systems</button>
 
-                        <button className="nav-links" id="nav-cyber-tab" data-bs-toggle="tab" data-bs-target="#nav-cyber"
+                        <button className="nav-links" id="nav-data-tab" data-bs-toggle="tab" data-bs-target="#nav-data"
                            type="button" role="tab" aria-controls="nav-cyber" aria-selected="false">Data Center & IT Infrastructure</button>
-                           <button className="nav-links" id="nertwork-safety" data-bs-toggle="tab" data-bs-target="#nav-cyber"
-                           type="button" role="tab" aria-controls="nav-cyber" aria-selected="false"> Network Security</button>
-                            <button className="nav-links" id="audio-visual" data-bs-toggle="tab" data-bs-target="#nav-cyber"
+                          
+                            <button className="nav-links" id="audio-visual" data-bs-toggle="tab" data-bs-target="#nav-audio"
                            type="button" role="tab" aria-controls="nav-cyber" aria-selected="false">Audio Visual Systems</button>
                      </div>
                   </nav>

@@ -4,12 +4,13 @@ import React from "react";
 import ServiceDetailsArea from "./service-details-area";
 import Footer from "@/src/layout/footers/footer";
 import BreadcrumbDigital from "@/src/common/breadcrumbs/breadcrumbDigital";
+import Breadcrumbitlow from "@/src/common/breadcrumbs/breadcrumbItlow";
 
 const ItandlowDetails = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbDigital title="IT And Low Current" innertitle="Future Connect" />
+      <Breadcrumbitlow title="IT And Low Current" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BreadcrumbDigital = ({title=" Future-Proof Network Solutions" , innertitle="Transforming the Future" }) => {
+const BreadcrumbData = ({title=" Future-Proof Network Solutions" , innertitle="Transforming the Future" }) => {
     return (
         <>
             <section className="breadcrumb__area include-bg pt-200 pb-200" 
@@ -15,7 +15,7 @@ const BreadcrumbDigital = ({title=" Future-Proof Network Solutions" , innertitle
                                 <span className="dvdr"><i className="flaticon-arrow-right"></i></span>
                                 <span>{title}</span>
                             </div>
-                            <h5 className="breadcrumb__title">Connectivity and Digital <br></br>Presence Solutions</h5>
+                            <h5 className="breadcrumb__title">Empowering Your Business with <br></br>Advanced Data Center & Network Security Solutions</h5>
                         </div>
                         </div>
                     </div>
@@ -25,4 +25,4 @@ const BreadcrumbDigital = ({title=" Future-Proof Network Solutions" , innertitle
     );
 };
 
-export default BreadcrumbDigital;
+export default BreadcrumbData;

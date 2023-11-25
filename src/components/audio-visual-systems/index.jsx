@@ -4,12 +4,13 @@ import React from "react";
 import ServiceDetailsArea from "./service-details-area";
 import Footer from "@/src/layout/footers/footer";
 import BreadcrumbDigital from "@/src/common/breadcrumbs/breadcrumbDigital";
+import BreadcrumbAudio from "@/src/common/breadcrumbs/breadcrumbAudio";
 
 const AudioVisualSystems = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbDigital title="IT And Low Solutions" innertitle="Future Connect" />
+      <BreadcrumbAudio title="Audio Visual Systems" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

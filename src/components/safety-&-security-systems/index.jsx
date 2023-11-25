@@ -4,12 +4,13 @@ import React from "react";
 import ServiceDetailsArea from "./service-details-area";
 import Footer from "@/src/layout/footers/footer";
 import BreadcrumbDigital from "@/src/common/breadcrumbs/breadcrumbDigital";
+import BreadcrumbSecurity from "@/src/common/breadcrumbs/breadcrumbSecurity";
 
 const SaftyAndSecuritySystem = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbDigital title="Safety & Security Systems" innertitle="Future Connect" />
+      <BreadcrumbSecurity title="Safety & Security Systems" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>
