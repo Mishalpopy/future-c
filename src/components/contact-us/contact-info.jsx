@@ -8,9 +8,9 @@ const contact_info_data = [
         icon: "fas fa-envelope",
         title: "Email Address",
         info_1: "info@futureconnect.com",
-        info_2: "me@futureconnect.com",
+
         link_1: "mailto:info@futureconnect.com",
-        link_2: "mailto:me@futureconnect.com",
+
     },
     {
         id: 3, 

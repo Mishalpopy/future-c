@@ -74,30 +74,10 @@ over_veiw_list: [
      title: "LMS Solution",
     info:"Empower your organization with our Learning Management System (LMS). Elevate training efficiency, track progress, and foster continuous learning effortlessly."},
 
-    {id: 11,
-        img: "/assets/img/services/service-details-bg.jpg",
-        icon: "/assets/img/digital-service/field.svg",
-     title: "Field Service Management",
-    info:"Optimize field operations with our Field Service Management solutions. Streamline tasks and enhance efficiency effortlessly."},
-
-    {id: 11,
-        img: "/assets/img/services/service-details-bg.jpg",
-        icon: "/assets/img/digital-service/document.svg",
-     title: "Document Management",
-    info:"Simplify document handling and organization with our Document Management solutions. Improve workflow and accessibility effortlessly."},
-
-    {id: 11,
-        img: "/assets/img/services/service-details-bg.jpg",
-        icon: "/assets/img/digital-service/ware.svg",
-     title: "Warehouse Management",
-    info:"Maximize warehouse efficiency with our Warehouse Management solutions. Streamline processes and improve logistics effortlessly."},
-
-    {id: 11,
-        img: "/assets/img/services/service-details-bg.jpg",
-        icon: "/assets/img/digital-service/inven.svg",
-     title: "Inventory Management",
-    info:"Take control of your inventory with our Inventory Management solutions. Ensure accurate tracking and efficient stock control effortlessly."},
   
+    
+   
+   
 
 ],
 over_veiw_list_two: [
