@@ -17,8 +17,7 @@ const footer_content = {
    pages: [
       {title: "About Us", link: "/about"},
       {title: "Contact Us", link: "/contact"},
-      {title: "Solutions", link: "/service"},
-      {title: "Hospital Hub", link: "#"}, 
+      {title: "Solutions", link: "/service"}, 
    ]
    
    
@@ -112,7 +111,7 @@ const Footer = ({style_1}) => {
                <div className="col-xl-5 col-lg-5 text-lg-end col-12 text-center ">
                   <div className="footer-menu">
                      <ul>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="/terms">Privacy Policy</a></li>
                         <li><a href="#">Terms of Use</a></li>
                      </ul>
                   </div>
