@@ -27,7 +27,7 @@ const menu_data = [
       { link: "/it-&-low-current", title: "IT & Low Current" },
       { link: "/safety-&-security-systems", title: "Safety & Security Systems" }, 
       { link: "/data-center-network-security", title: "Data Center & Network Security" },
-      { link: "/audio-video-systems", title: "Audio Visual Systems" },
+      { link: "/audio-video-systems", title: "Audio Video Systems" },
 
 
 
