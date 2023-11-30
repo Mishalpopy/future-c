@@ -16,7 +16,10 @@ function App({ Component, pageProps }) {
     };
 
     const handleComplete = () => {
-      setLoading(false);
+      // Simulate a 2-second loading time
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000);
     };
 
     router.events.on('routeChangeStart', handleStart);
