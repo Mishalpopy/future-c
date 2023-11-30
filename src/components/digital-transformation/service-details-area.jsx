@@ -153,9 +153,8 @@ service: [
     { id: 1, icon: "/assets/img/digital-service/software.svg", title: "Digital Transformation", link: "/digital-transformation" },
     { id: 2, icon: "/assets/img/digital-service/low.svg", title: "IT & LOW CURRENT", link: "/it-&-low-current" },
     { id: 3, icon: "/assets/img/digital-service/safery.svg", title: "SAFETY & SECURITY SYSTEMS",link: "/safety-&-security-systems" },
-    { id: 4, icon: "/assets/img/digital-service/data.svg", title: "DATA CENTER & IT INFRASTRUCTURE",link: "/data-center-it-Infrastructure" },
-    { id: 5, icon: "/assets/img/digital-service/network.svg", title: "NETWORK SECURITY",link: "/network-security" },
-    { id: 6, icon: "/assets/img/digital-service/audio.svg", title: "AUDIO VISUAL SYSTEMS",link: "/audio-visual-systems" },
+    { id: 4, icon: "/assets/img/digital-service/data.svg", title: "DATA CENTER & NETWORK SECURITY",link: "/data-center-network-security" },
+    { id: 6, icon: "/assets/img/digital-service/audio.svg", title: "AUDIO VIDEO SYSTEMS",link: "/audio-video-systems" },
 ],
 
 

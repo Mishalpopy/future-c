@@ -6,7 +6,7 @@ import Shop from "../components/shop";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Sectox - CCTV & Security"} />
+      <SEO pageTitle={"Terms & Condition || Future Connect - Saudia Arabia"} />
       <Shop />
     </Wrapper>
   );

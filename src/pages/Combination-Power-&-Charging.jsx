@@ -10,7 +10,7 @@ import Combination from "../components/Combination-Power-&-Charging";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+     <SEO pageTitle={"Combination Power & Charging || Future Connect - KSA"} />
       <Combination />
     </Wrapper>
   );

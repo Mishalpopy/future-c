@@ -12,9 +12,10 @@ import BrandArea from "../home-2/brand-area";
 import CtaArea from "./cta-area";
 import NewsFeed from "./news-feed";
 import Footer from "@/src/layout/footers/footer";
-
+import Particles from "react-particles";
 const HomeOne = () => {
   return (
+    
     <>
       <HeaderOne />
       <SliderArea />

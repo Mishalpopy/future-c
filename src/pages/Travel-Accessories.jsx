@@ -9,7 +9,7 @@ import TravelAce from "../components/Travel-Accessories";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Travel Accessories || Future Connect - Saudia Arabia"} />
       <TravelAce />
     </Wrapper>
   );

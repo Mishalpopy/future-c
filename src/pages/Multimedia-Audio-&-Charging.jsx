@@ -9,7 +9,7 @@ import MultimediaAudio from "../components/Multimedia-Audio-&-Charging";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Multimedia Audio & Charging || Future Connect - KSA"} />
       <MultimediaAudio />
     </Wrapper>
   );

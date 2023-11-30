@@ -7,6 +7,7 @@ import FeatureArea from "./feature-area";
 import Footer from "@/src/layout/footers/footer";
 import FeaturesLevel from "../homes/home-2/features-level";
 import TestimonialArea from "../homes/home/testimonial-area";
+import ContactArea from "../contact-us/contact-area";
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
      
       <FeatureArea />
       <FeaturesLevel />
-     <TestimonialArea />
+      <ContactArea />
   
       <Footer />
     </>

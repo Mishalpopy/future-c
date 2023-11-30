@@ -10,7 +10,7 @@ import AudioVisualSystems from "../components/audio-video-systems";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Audio Video System || Future Connect - Saudia Arabia"} />
       <AudioVisualSystems />
     </Wrapper>
   );

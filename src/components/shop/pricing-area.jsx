@@ -1,108 +1,90 @@
-import product_data from '@/src/data/product-data';
-import NiceSelect from '@/src/ui/nice-select';
-import Link from 'next/link';
-import React from 'react';
+import product_data from "@/src/data/product-data";
+import NiceSelect from "@/src/ui/nice-select";
+import Link from "next/link";
+import React from "react";
 
 const ShoppingArea = () => {
-    const selectHandler = (e) => {};
-    return (
-        <>
-            <section className="product__area pt-120 pb-100">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                        <div className="product__result">
-                            <p><span>20</span> Item On List</p>
-                        </div>
-                        </div>
-                        <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-6">
-                        <div className="product__filter-wrapper d-flex align-items-center justify-content-md-end">
-                            <div className="product__filter-count d-flex align-items-center"> 
-                                <span>Show</span>
-                                <NiceSelect 
-                                    options={[
-                                    { value: "12", text: "12" },
-                                    { value: "16", text: "16" },
-                                    { value: "20", text: "20" },
-                                    { value: "24", text: "24" },
-                                    ]}
-                                    defaultCurrent={0}
-                                    onChange={selectHandler}
-                                    />  
-                            </div>
-                            <div className="product__filter-style nav nav-tabs" role="tablist">
+  const selectHandler = (e) => {};
+  return (
+    <>
+      <section className="product__area pt-120 pb-100">
+        <div className="container">
+          <div className="row">
+            <h1>Terms and Conditions</h1>
+            <p>
+              Welcome to Future Connect! By accessing our website or using our
+              services, you agree to comply with and be bound by the following
+              Terms and Conditions. Please read these terms carefully before
+              engaging with Future Connect.
+            </p>
+            <h4>Acceptance of Terms</h4>
+            <p>
+              By using our website or services, you agree to these Terms and
+              Conditions and any additional terms referenced herein. If you do
+              not agree with these terms, please refrain from using our website
+              and services.
+            </p>
+            <h4>Services</h4>
+            <p>
+              2.1 Future Connect provides technology solutions and services
+              aimed at empowering businesses through digital transformation.
+              <br></br>
+              2.2 We reserve the right to modify, suspend, or discontinue any
+              aspect of our services at any time without prior notice.
+            </p>
+            <h4>User Conduct</h4>
+            <p>
+              3.1 You agree not to engage in any activity that may disrupt or
+              interfere with the proper functioning of our website or services.
+              <br></br>
+              3.2 You shall not use our website or services for any unlawful or
+              unauthorized purpose.
+              <br></br>
+              3.3 You are responsible for maintaining the confidentiality of
+              your account information and passwords.
+            </p>
+            <h4>Intellectual Property</h4>
+            <p>
+              4.1 All content, logos, trademarks, and intellectual property on
+              our website are owned by Future Connect or its licensors.
+              <br></br>
+              4.2 You may not reproduce, distribute, modify, or create
+              derivative works from any content on our website without our
+              express written consent.
+            </p>
+            <h4>Privacy</h4>
+            <p>
+              5.1 Our Privacy Policy governs the collection, use, and disclosure
+              of your personal information. By using our services, you consent
+              to the terms of our Privacy Policy.
+            </p>
+            <h4>Limitation of Liability</h4>
+            <p>
+              6.1 Future Connect shall not be liable for any direct, indirect,
+              incidental, consequential, or special damages arising out of or in
+              connection with your use of our website or services.
+            </p>
+            <h4>Changes to Terms</h4>
+            <p>
+              7.1 Future Connect reserves the right to update or modify these
+              Terms and Conditions at any time. Continued use of our website or
+              services after such changes constitutes your acceptance of the
+              revised terms.
+            </p>
 
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-xxl-12">
-                        <div className="product__filter-tab">
-                            <div className="tab-content" id="nav-tabContent">
-                                <div className="tab-pane fade show active" id="nav-grid-tab" role="tabpanel"
-                                    aria-labelledby="nav-grid-tab">
-                                    <div className="row">
-                                        {product_data.slice(4, 16).map((item, i)  => 
-                                            <div key={i} className="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
-                                                <div className="product__item mb-30 text-center transition-3">
-                                                    <div className="product__thumb p-relative mb-30 w-img fix">
-                                                        <Link href="/shop-details">
-                                                        <img src={item.img} alt="theme-pure" />
-                                                        </Link>
-                                                        <div className="product__icon">
-                                                        <a href="#"><i className="fal fa-eye"></i></a>
-                                                        <a href="#"><i className="fal fa-shopping-cart"></i></a>
-                                                        <a href="#"><i className="fal fa-heart"></i></a>
-                                                        </div>
-                                                    </div>
-                                                    <div className="product__content">
-                                                        <h4 className="product__title">
-                                                        <Link href="/shop-details">{item.title}</Link>
-                                                        </h4>
-                                                        <div className="product__price">
-                                                        <span className="price">£{item.price}</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>                                        
-                                        )} 
-
-                                        <div className="basic-pagination pt-40">
-                                            <nav>
-                                                <ul>
-                                                    <li>
-                                                    <Link href="/blog">
-                                                        <i className="far fa-angle-left"></i>
-                                                    </Link>
-                                                    </li>
-                                                    <li>
-                                                    <Link href="/blog">1</Link>
-                                                    </li>
-                                                    <li>
-                                                    <span className="current">2</span>
-                                                    </li>
-                                                    <li>
-                                                    <Link href="/blog">3</Link>
-                                                    </li>
-                                                    <li>
-                                                    <Link href="/blog">
-                                                        <i className="far fa-angle-right"></i>
-                                                    </Link>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    );
+            <h4>Contact Information</h4>
+            <p>
+              If you have any questions or concerns about these Terms and
+              Conditions, please contact us at info@futureconnectme.com.
+              <br></br>
+              Thank you for choosing Future Connect. We look forward to serving
+              you on your journey to a connected future!
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default ShoppingArea;

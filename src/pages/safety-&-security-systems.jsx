@@ -9,7 +9,7 @@ import SaftyAndSecuritySystem from "../components/safety-&-security-systems";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Safety & Security System || Future Connect - Saudia Arabia"} />
       <SaftyAndSecuritySystem />
     </Wrapper>
   );

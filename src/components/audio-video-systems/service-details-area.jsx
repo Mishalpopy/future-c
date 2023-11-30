@@ -127,15 +127,13 @@ over_veiw_list_two: [
     bottom_info_title: "IT Infrastructure Solutions",
     bottom_info: <>AtFuture Connect, we bring innovation and excellence to every aspect of audiovisual technology. Whether you're aiming to create a mesmerizing performance, an impactful presentation, or a collaborative meeting space, our services are crafted to meet your unique needs. Elevate your experiences with our audiovisual solutions that redefine the standard of excellence.</>,
 
-service: [
-    { id: 1, icon: <GrTechnology />, title: "Digital Transformation" },
-    { id: 2, icon: <GrShieldSecurity />, title: "IT & Low Current" },
-    { id: 3, icon: <GrShieldSecurity />, title: "Safety & Security Systems" },
-    { id: 4, icon: <FaHotel />, title: "Data Center & IT Infrastructure" },
-    { id: 4, icon: <FaHotel />, title: "Network Security" },
-    { id: 4, icon: <FaHotel />, title: "AUDIO VISUAL SYSTEMS" },
-
-],
+    service: [
+        { id: 1, icon: "/assets/img/digital-service/software.svg", title: "Digital Transformation", link: "/digital-transformation" },
+        { id: 2, icon: "/assets/img/digital-service/low.svg", title: "IT & LOW CURRENT", link: "/it-&-low-current" },
+        { id: 3, icon: "/assets/img/digital-service/safery.svg", title: "SAFETY & SECURITY SYSTEMS",link: "/safety-&-security-systems" },
+        { id: 4, icon: "/assets/img/digital-service/data.svg", title: "DATA CENTER & NETWORK SECURITY",link: "/data-center-network-security" },
+        { id: 6, icon: "/assets/img/digital-service/audio.svg", title: "AUDIO VIDEO SYSTEMS",link: "/audio-video-systems" },
+    ],
 
 
     materials: [
@@ -190,11 +188,11 @@ const ServiceDetailsArea = () => {
                         <div className="tp-sidebar-widget">
                             <h4 className="tp-widget-title">Our Services</h4>
                             <div className="tp-widget-item">
-                                <ul>
+                            <ul>
                                     {service.map((item, i) => 
                                         <li key={i}>
-                                            <a href="#"><span>
-                    {React.cloneElement(item.icon, { className: 'icon-colored' })} {item.title}
+                                            <a href={item.link}><span>
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" /> {item.title}
                 </span></a>
                                         </li>                                    
                                     )} 

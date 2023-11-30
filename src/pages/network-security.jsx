@@ -9,7 +9,7 @@ import NetworkSecurity from "../components/network-security";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Netwrok Security || Future Connect - KSA"} />
       <NetworkSecurity />
     </Wrapper>
   );

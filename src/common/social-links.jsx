@@ -8,20 +8,11 @@ const social_links = [
     icon: "fab fa-facebook-f", 
   },
   {
-    link: "http://twitter.com",
+    link: "http://instagram.com",
     target: "_blank",
-    icon: "fab fa-twitter", 
+    icon: "fab fa-instagram", 
   },  
-  {
-    link: "https://www.behance.com",
-    target: "_blank",
-    icon: "fab fa-behance", 
-  }, 
-  {
-    link: "https://www.youtube.com",
-    target: "_blank",
-    icon: "fab fa-youtube", 
-  },
+
   {
     link: "https://www.linkedin.com",
     target: "_blank",

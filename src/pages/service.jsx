@@ -6,7 +6,7 @@ import Service from '../components/service';
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle={"Sectox - CCTV & Security"} />
+            <SEO pageTitle={"Solutions || Future Connect - Saudia Arabia"} />
             <Service />            
         </Wrapper>
     );

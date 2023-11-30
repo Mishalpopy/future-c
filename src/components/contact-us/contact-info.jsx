@@ -12,12 +12,16 @@ const contact_info_data = [
         link_1: "mailto:info@futureconnect.com",
 
     },
+
+    
+   
+   
     {
         id: 3, 
         icon: "fas fa-map-marker-alt",
         title: "KSA - Office Address",
-        info_1: "Khalid Bin Moawiya street Al Rayyan,",
-        info_2: " Jeddah, Kingdom of Saudi Arabia ",
+        info_1: "#8533, Khalid bin Moawiya Street, Al Rayan District, Jeddah 23643, Western Region, Saudi Arabia",
+        info_2: "",
         link_1: "#",
         link_2: "#",
     },

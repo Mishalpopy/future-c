@@ -7,7 +7,7 @@ import ItandlowDetails from "../components/it-&-low-current";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"IT & Low Current || Future Connect - KSA"} />
       <ItandlowDetails />
     </Wrapper>
   );

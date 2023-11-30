@@ -6,7 +6,7 @@ import Checkout from "../components/checkout";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Sectox - CCTV & Security"} />
+      <SEO pageTitle={"Future Connect - KSA"} />
       <Checkout />
     </Wrapper>
   );

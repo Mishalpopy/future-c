@@ -7,7 +7,7 @@ import DigitalTransformation from "../components/digital-transformation";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Digital Transformation || Future Connect - KSA"} />
       <DigitalTransformation />
     </Wrapper>
   );

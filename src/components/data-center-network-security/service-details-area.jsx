@@ -133,13 +133,11 @@ over_veiw_list_two: [
     bottom_info: <>At Future Connect, we are committed to delivering state-of-the-art solutions that empower your business, ensuring you stay ahead in the dynamic world of data and network security. Partner with us for a future-proof network infrastructure that fuels growth and innovation.</>,
 
     service: [
-        { id: 1, icon: <GrTechnology />, title: "Digital Transformation" },
-        { id: 2, icon: <GiCoolSpices />, title: "IT & Low Current" },
-        { id: 3, icon: <GrShieldSecurity />, title: "Safety & Security Systems" },
-        { id: 4, icon: <FaHotel />, title: "Data Center & IT Infrastructure" },
-        { id: 4, icon: <FaHotel />, title: "Network Security" },
-        { id: 4, icon: <FaHotel />, title: "AUDIO VISUAL SYSTEMS" },
-    
+        { id: 1, icon: "/assets/img/digital-service/software.svg", title: "Digital Transformation", link: "/digital-transformation" },
+        { id: 2, icon: "/assets/img/digital-service/low.svg", title: "IT & LOW CURRENT", link: "/it-&-low-current" },
+        { id: 3, icon: "/assets/img/digital-service/safery.svg", title: "SAFETY & SECURITY SYSTEMS",link: "/safety-&-security-systems" },
+        { id: 4, icon: "/assets/img/digital-service/data.svg", title: "DATA CENTER & NETWORK SECURITY",link: "/data-center-network-security" },
+        { id: 6, icon: "/assets/img/digital-service/audio.svg", title: "AUDIO VIDEO SYSTEMS",link: "/audio-video-systems" },
     ],
 
 
@@ -193,11 +191,11 @@ const ServiceDetailsArea = () => {
                         <div className="tp-sidebar-widget">
                             <h4 className="tp-widget-title">Our Services</h4>
                             <div className="tp-widget-item">
-                                <ul>
+                            <ul>
                                     {service.map((item, i) => 
                                         <li key={i}>
-                                            <a href="#"><span>
-                    {React.cloneElement(item.icon, { className: 'icon-colored' })} {item.title}
+                                            <a href={item.link}><span>
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" /> {item.title}
                 </span></a>
                                         </li>                                    
                                     )} 

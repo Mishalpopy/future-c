@@ -9,7 +9,7 @@ import WireLess from "../components/Wireless-Charging";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Wireless Charging || Future Connect - Saudia Arabia"} />
       <WireLess />
     </Wrapper>
   );

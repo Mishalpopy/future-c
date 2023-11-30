@@ -8,7 +8,7 @@ import PowerChargingUSB from "../components/Power-Charging-&-USB";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Power Charging & USB || Future Connect - Saudia Arabia"} />
       <PowerChargingUSB />
     </Wrapper>
   );

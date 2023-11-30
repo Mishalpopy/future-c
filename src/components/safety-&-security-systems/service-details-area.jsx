@@ -20,7 +20,7 @@ import { ImRoad } from 'react-icons/im';
 
 
 const service_details_content = {
-    img: "/assets/img/services/service-details-bg.jpg",
+    img: "/assets/img/services/service-details-bg-safety.jpg",
     title: "Service Overview",
     info_1: <>Safeguarding a company's assets, encompassing both property and personnel, is paramount for sustained success. Relying on experts with the knowledge and experience to implement effective security and safety measures is crucial. Through collaboration with reputable suppliers and experienced staff, companies can fortify their assets with confidence.</>,
 
@@ -122,12 +122,13 @@ over_veiw_list: [
     bottom_info_title: "Why Choose Future Connect",
     bottom_info: <>In conclusion, our comprehensive security solutions are tailored to ensure the protection of a company's invaluable assets, encompassing both property and personnel. Collaborating with seasoned experts and leveraging cutting-edge technologies, we offer a robust lineup of security measures. From WatchGuard CCTV Systems providing round-the-clock surveillance to Access Sentinel Control Systems fortifying entry points, and FireGuard Alarm & Detection Systems prioritizing safety, each solution is meticulously designed for effectiveness. The deployment of advanced technologies such as NOVEC, FM200, CO² in FireShield Suppression Systems and the prompt detection capabilities of IntrusionShield Alarm Systems further enhance security. VESDA AirWatch ensures very early smoke detection, while AudioAlert Public Address Systems enable clear communication in emergencies. Our physical security measures, including RoadFortress Blockers, BollardDefender Systems, GateGuard Barriers, TurnstileGuard Systems, SpikeDefender Tire Killers, GateMaster Gates & Operators, FenceFortress Systems, ArmoredHaven Guard Houses, and SecuScan Walkthrough & Metal Detectors, collectively establish a comprehensive defense against unauthorized access. The AlertGuard Fire Alarm System ensures a timely response to fire emergencies. Through this holistic approach, we empower companies to fortify their assets with confidence and resilience.</>,
 
-service: [
-    { id: 1, icon: <GrTechnology />, title: "Digital Solutions" },
-    { id: 2, icon: <GrShieldSecurity />, title: "Security Solutions" },
-    { id: 3, icon: <AiOutlineSolution />, title: "Operations Solutions" },
-    { id: 4, icon: <FaHotel />, title: "Hospitality Solutions" },
-],
+    service: [
+        { id: 1, icon: "/assets/img/digital-service/software.svg", title: "Digital Transformation", link: "/digital-transformation" },
+        { id: 2, icon: "/assets/img/digital-service/low.svg", title: "IT & LOW CURRENT", link: "/it-&-low-current" },
+        { id: 3, icon: "/assets/img/digital-service/safery.svg", title: "SAFETY & SECURITY SYSTEMS",link: "/safety-&-security-systems" },
+        { id: 4, icon: "/assets/img/digital-service/data.svg", title: "DATA CENTER & NETWORK SECURITY",link: "/data-center-network-security" },
+        { id: 6, icon: "/assets/img/digital-service/audio.svg", title: "AUDIO VIDEO SYSTEMS",link: "/audio-video-systems" },
+    ],
 
 
     materials: [
@@ -182,11 +183,11 @@ const  ServiceDetailsArea = () => {
                         <div className="tp-sidebar-widget">
                             <h4 className="tp-widget-title">Our Services</h4>
                             <div className="tp-widget-item">
-                                <ul>
+                            <ul>
                                     {service.map((item, i) => 
                                         <li key={i}>
-                                            <a href="#"><span>
-                    {React.cloneElement(item.icon, { className: 'icon-colored' })} {item.title}
+                                            <a href={item.link}><span>
+                                            <img className="w-3" width={60} src={item.icon} alt="theme-pure" /> {item.title}
                 </span></a>
                                         </li>                                    
                                     )} 

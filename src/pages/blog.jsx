@@ -6,7 +6,7 @@ import Blog from "../components/blog";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect "} />
+      <SEO pageTitle={"Future Connect - KSA"} />
       <Blog />
     </Wrapper>
   );

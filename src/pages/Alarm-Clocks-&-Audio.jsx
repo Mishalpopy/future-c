@@ -11,7 +11,7 @@ import AlarmClock from "../components/Alarm-Clocks-&-Audio";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Alarm Clock & Audio || Future Connect - Saudia Arabia"} />
       <AlarmClock />
     </Wrapper>
   );

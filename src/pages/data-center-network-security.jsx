@@ -9,7 +9,7 @@ import DataCenterITInfrastructure from "../components/data-center-network-securi
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Data Center & Network Security || Future Connect - KSA"} />
       <DataCenterITInfrastructure />
     </Wrapper>
   );

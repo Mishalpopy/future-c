@@ -1,7 +1,11 @@
 import React from 'react';
- 
+import PhoneInput from 'react-phone-number-input'; 
+import { useState } from 'react';
+import 'react-phone-number-input/style.css'
+
 
 const ContactForm = () => {
+    const [value, setValue] = useState()
     return (
         <>
              <form id="contact-form" onSubmit={e => e.preventDefault()}>
@@ -10,6 +14,17 @@ const ContactForm = () => {
                     <div className="contact__input">
                         <i className="fas fa-user"></i>
                         <input className="w-100" type="text" placeholder="Enter name" name="name" required />
+                    </div>
+                </div>
+                <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                    <div className="contact__input">
+                    
+                        <PhoneInput
+                        defaultCountry="SA"
+                        international
+  placeholder="Enter phone number"
+  value={value}
+  onChange={setValue}/>
                     </div>
                 </div>
                 <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">

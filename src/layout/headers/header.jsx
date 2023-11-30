@@ -38,7 +38,7 @@ const HeaderOne = () => {
                   <div className="row align-items-center">
                      <div className="col-xl-2 col-lg-6 col-md-5 col-7">
                         <div className="logo">
-                           <Link href="/"><img src="/assets/img/logo/fc-logo.png" alt="logo" /></Link>
+                           <Link href="/"><img src="/assets/img/logo/fc-logo.svg" alt="logo" /></Link>
                         </div>
                      </div>
                      <div className="col-xl-7 d-none d-xl-block text-end">

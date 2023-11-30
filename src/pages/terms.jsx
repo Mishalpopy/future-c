@@ -7,7 +7,7 @@ import Terms from "../components/terms";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Future Connect - KSA"} />
+      <SEO pageTitle={"Terms & Condition || Future Connect - KSA"} />
       <Terms />
     </Wrapper>
   );
