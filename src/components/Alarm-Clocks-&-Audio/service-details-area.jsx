@@ -196,20 +196,7 @@ const ServiceDetailsArea = () => {
                         </div>
                         </div>
                         <div className="col-xl-3">
-                        <div className="tp-sidebar-widget">
-                            <h4 className="tp-widget-title">Our Services</h4>
-                            <div className="tp-widget-item">
-                                <ul>
-                                    {service.map((item, i) => 
-                                        <li key={i}>
-                                            <a href="#"><span>
-                    {React.cloneElement(item.icon, { className: 'icon-colored' })} {item.title}
-                </span></a>
-                                        </li>                                    
-                                    )} 
-                                </ul>
-                            </div>
-                        </div>
+
                         <div className="tp-sidebar-widget pt-50">
                             <h4 className="tp-widget-title">Call To Action</h4>
                             <div className="widget-form grey-bg">

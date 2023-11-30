@@ -46,7 +46,6 @@ const menu_data = [
       { link: "/Alarm-Clocks-&-Audio", title: "Alarm Clocks & Audio" },
       { link: "/Wireless-Charging", title: "Wireless Charging" },
       { link: "/Travel-Accessories", title: "Travel Accessories" },
-      { link: "/Wireless-Charging", title: "Wireless Charging" },
 
       
     ],

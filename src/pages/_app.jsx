@@ -5,6 +5,7 @@ import { ClipLoader } from 'react-spinners';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import '@/src/styles/index.scss'; // Import your custom styles
 import { useRouter } from 'next/router'; // Import the useRouter hook
+import Head from 'next/head'; // Import the Head component
 
 function App({ Component, pageProps }) {
   const router = useRouter(); // Get the router instance
@@ -35,6 +36,18 @@ function App({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        {/* Include the script tag in the Head component */}
+        <script
+          src="https://dashboard.chatfuel.com/integration/landing-wa-widget.js"
+          async
+          defer
+          data-prefilled="Hello"
+          data-welcome="Hello, Welcome To Future Connect"
+          data-phone="00966563331717"
+        />
+      </Head>
+
       {loading && (
         <div className="preloader">
           <ClipLoader color="#2a8e5c" size={50} />
