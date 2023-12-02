@@ -17,10 +17,11 @@ const Sidebar = ({isOpen, setIsOpen}) => {
                         <h3>CONTACT US</h3>
                     </div>
                     <ul className="sidebar-list">
-                        <li>Al-Khalid Bin Moawiva street Al Rayyan,
-Jeddah, Kingdom of Saudi Arabia</li>
-                        <li>+971 56 371 784</li>
-                        <li>info@futureconnect.com</li>
+                        <li>#8533, Khalid bin Moawiya Street, Al
+Rayan District, Jeddah 23643,
+Western Region, Saudi Arabia</li>
+                        <li>+966 56 333 1717</li>
+                        <li>info@futureconnectme.com</li>
                     </ul>
                     <div className="tp-sidebar-social">
                         <SocialLinks />  
