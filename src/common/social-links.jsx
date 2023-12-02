@@ -13,11 +13,7 @@ const social_links = [
     icon: "fab fa-instagram", 
   },  
 
-  {
-    link: "https://www.linkedin.com",
-    target: "_blank",
-    icon: "fab fa-linkedin-in", 
-  }, 
+ 
 ];
 
 const SocialLinks = () => {

@@ -10,7 +10,7 @@ const history_data = {
     yearly_info: [
         {
             id: 1, 
-            year: "Our Vission",
+            year: "Our Vision",
             title: "Empowering Success Through Technology",
             info: <>Our vision is to shape a connected tomorrow where technology is an enabler, not a barrier. We aspire to lead businesses into a seamless digital future where they can thrive, adapt, and innovate. Our journey is about pioneering new paths to connectivity.</>,
         },

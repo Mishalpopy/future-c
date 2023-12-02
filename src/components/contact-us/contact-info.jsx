@@ -7,7 +7,7 @@ const contact_info_data = [
         id: 2, 
         icon: "fas fa-envelope",
         title: "Email Address",
-        info_1: "info@futureconnect.com",
+        info_1: "info@futureconnectme.com",
 
         link_1: "mailto:info@futureconnect.com",
 

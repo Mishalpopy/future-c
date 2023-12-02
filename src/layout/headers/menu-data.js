@@ -38,7 +38,7 @@ const menu_data = [
     mega_menu: true,
     has_dropdown: true,
     title: "Hospitality Hub",
-    link: "/",
+    link: "/service-hospitality",
     sub_menus: [
       { link: "/Power-Charging-&-USB", title: "Power Charging & USB" }, 
       { link: "/Multimedia-Audio-&-Charging", title: "Multimedia Audio & Charging" },

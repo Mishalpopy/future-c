@@ -40,11 +40,7 @@ over_veiw_list: [
    icon: "/assets/img/audio/room.svg",
      title: "Meeting Room Solutions",
     info: "Integrated technology for efficient and collaborative meeting environments."},
-    {id: 4,
-        img: "/assets/img/services/service-details-bg.jpg",
-         iicon: "/assets/img/audio/audi.svg",
-     title: "Auditorium Theater Solutions",
-    info: "Tailored audiovisual solutions for optimal auditorium and theater experiences."},
+
     {id: 5,
         img: "/assets/img/services/service-details-bg.jpg",
          icon: "/assets/img/audio/sound.svg",

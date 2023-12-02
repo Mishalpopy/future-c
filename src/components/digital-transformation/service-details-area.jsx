@@ -74,7 +74,28 @@ over_veiw_list: [
      title: "LMS Solution",
     info:"Empower your organization with our Learning Management System (LMS). Elevate training efficiency, track progress, and foster continuous learning effortlessly."},
 
-  
+    {id: 11,
+        img: "/assets/img/services/service-details-bg.jpg",
+        icon: "/assets/img/digital-service/document (2).svg",
+     title: "Document Management",
+    info:"Organize, store, and retrieve files seamlessly for streamlined information handling."},
+    {id: 11,
+        img: "/assets/img/services/service-details-bg.jpg",
+        icon: "/assets/img/digital-service/warehouse.svg",
+     title: "Warehouse Management",
+    info:"Optimize storage, logistics, and operations for efficient warehouse functionality."},
+
+    {id: 11,
+        img: "/assets/img/services/service-details-bg.jpg",
+        icon: "/assets/img/digital-service/inventory.svg",
+     title: "Inventory Management",
+    info:"Track, control, and manage stock levels for effective inventory supervision."},
+    {id: 11,
+        img: "/assets/img/services/service-details-bg.jpg",
+        icon: "/assets/img/digital-service/management.svg",
+     title: "Field Service Management",
+    info:"Efficient coordination and tracking of tasks in mobile workforce operations."},
+
     
    
    

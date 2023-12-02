@@ -107,7 +107,7 @@ const service_data = [
         icon:"/assets/img/services/cctv.svg",
         title:"Safety & Security Systems",
         description: <>Comprehensive Safety & Security Systems: Advanced Solutions for Secure Environments</>,
-        link: "safety-&-security-systems",
+        link: "/safety-&-security-systems",
     },
     {
         id: 15,

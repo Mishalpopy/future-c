@@ -186,8 +186,7 @@ const SliderArea = () => {
                           ) : (
                             <div className="tp-slide-btn-box mt-40">
                               <div className="tp-slide-service mr-30">
-                                <h4>{item.slider_service_par}%</h4>
-                                <span> {item.slider_service_title} </span>
+                               
                               </div>
                               <div className="slider-btn">
                                 <Link href={item.page_direction} className="tp-btn-white">

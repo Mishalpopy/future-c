@@ -15,7 +15,10 @@ const footer_content = {
       {title: "Home", link: "/"},
       {title: "About Us", link: "about"},
       {title: "Solutions", link: "/service"},
+      {title: "Hospitality Hub", link: "/service-hospitality"},
       {title: "Contact Us", link: "/contact"},
+
+
 , 
    ]
 
