@@ -15,7 +15,7 @@ const TravelAce = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbTravel title="Travel Accessories" innertitle="Future Connect" />
+      <BreadcrumbTravel title="Bluetooth Speakers" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

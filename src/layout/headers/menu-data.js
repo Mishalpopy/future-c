@@ -21,7 +21,7 @@ const menu_data = [
     mega_menu: true,
     has_dropdown: true,
     title: "Solutions",
-    link: "/service",
+    link: "/solutions",
     sub_menus: [
       { link: "/digital-transformation", title: "Digital Transformation" }, 
       { link: "/it-&-low-current", title: "IT & Low Current" },
@@ -45,7 +45,10 @@ const menu_data = [
       { link: "/Combination-Power-&-Charging", title: "Combination Power & Charging" }, 
       { link: "/Alarm-Clocks-&-Audio", title: "Alarm Clocks & Audio" },
       { link: "/Wireless-Charging", title: "Wireless Charging" },
-      { link: "/Travel-Accessories", title: "Travel Accessories" },
+      { link: "/BLUETOOTH-SPEAKERS", title: "Bluetooth Speakers" },
+      { link: "/Meeting-&-Conference", title: "Meeting & Conference" },
+      { link: "/Virtual-Reception-Kiosk", title: "Virtual Reception Kiosk" },
+
 
       
     ],

@@ -13,7 +13,7 @@ const AlarmClock = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbAlarm title="Safety & Security Systems" innertitle="Future Connect" />
+      <BreadcrumbAlarm title="Alarm Clocks & Audio" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

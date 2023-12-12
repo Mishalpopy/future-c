@@ -7,7 +7,7 @@ const footer_content = {
    get_in_touch: "Get In Touch",
    location: <>#8533, Khalid bin Moawiya Street, Al<br />
    Rayan District, Jeddah 23643,<br />
-   Western Region, Saudi Arabia</>,
+   Saudi Arabia</>,
    office_time: <>Mon – Fri: 7.00 – 22.00 <br /> St – Sun: 9.00 – 20.00</>,
    phone: <>+966 56 333 1717</>,
    pages_title: "Main Pages",

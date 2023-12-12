@@ -11,7 +11,7 @@ const MultimediaAudio = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbMulti title="Safety & Security Systems" innertitle="Future Connect" />
+      <BreadcrumbMulti title="Multimedia Audio & Charging" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

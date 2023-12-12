@@ -18,7 +18,7 @@ import { SiGooglemeet } from 'react-icons/si';
 
 const service_details_content = {
     img: "/assets/img/digital-service/bg.jpg",
-    title: "Service Overview",
+    title: "Solution Overview",
     info_1: <>Welcome to Future Connect, your gateway to cutting-edge Digital Transformation Solutions. Explore our diverse range of services designed to revolutionize the way you do business.<br></br>At Future Connect, we understand that Digital Transformation is not just a service but a journey towards a connected and future-ready business environment. Embrace innovation with us and transform the way you operate!
 
     </>,
@@ -52,11 +52,7 @@ over_veiw_list: [
         icon: "/assets/img/digital-service/asset.svg",
      title: "Asset Management ",
     info:"Introducing our concise Asset Management system – the key to efficient tracking and optimization. Simplify asset control, enhance visibility, and maximize productivity effortlessly."},
-    {id: 7,
-        img: "/assets/img/services/service-details-bg.jpg",
-        icon: "/assets/img/digital-service/digital.svg",
-     title: "Digital Signage",
-    info:"Introducing our concise Digital Signage solution – the key to impactful displays with minimal effort. Elevate communication, captivate audiences, and manage content effortlessly."},
+    
     {id: 8,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/digital-service/queue.svg",
@@ -219,8 +215,7 @@ const ServiceDetailsArea = () => {
                           
 
                                     <div className="tp-bottom-info pt-20">
-                                        <h4>{bottom_info_title}</h4>
-                                        <p>{bottom_info}</p>
+                                       
                                     </div>
 
                                 </div>
@@ -229,7 +224,7 @@ const ServiceDetailsArea = () => {
                         </div>
                         <div className="col-xl-3">
                         <div className="tp-sidebar-widget">
-                            <h4 className="tp-widget-title">Our Services</h4>
+                            <h4 className="tp-widget-title">Our Solutions</h4>
                             <div className="tp-widget-item">
                                 <ul>
                                     {service.map((item, i) => 

@@ -114,19 +114,11 @@ const service_data = [
         sirial: "00",
         img: "/assets/img/services/004.jpg",
         icon:"/assets/img/services/data.svg",
-        title:"Data Center & IT Infrastructure",
+        title:"Data Center & Network Security",
         description: <>Data Center & IT Infrastructure: Building Robust Foundations for Digital Excellence</>,
-        link: "/data-center-it-Infrastructure",
+        link: "/data-center-network-security",
     },
-    {
-        id: 15,
-        sirial: "00",
-        img: "/assets/img/services/005.jpg",
-        icon:"/assets/img/services/network.svg",
-        title:"Network Security Services",
-        description: <>Network Security Services: Protecting Connectivity in Today's Digital Landscape</>,
-        link: "/network-security",
-    },
+    
     {
         id: 15,
         sirial: "00",
@@ -134,7 +126,7 @@ const service_data = [
         icon:"/assets/img/services/audi2.svg",
         title:"Audio Visual Systems",
         description: <>Immersive Audio Visual Systems: Unparalleled Experiences, Unmatched Connectivity</>,
-        link: "/audio-visual-systems"
+        link: "/audio-video-systems"
     },
 
 

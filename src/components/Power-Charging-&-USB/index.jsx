@@ -10,7 +10,7 @@ const PowerChargingUSB = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbPower title="Safety & Security Systems" innertitle="Future Connect" />
+      <BreadcrumbPower title="Power Charging & USB" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

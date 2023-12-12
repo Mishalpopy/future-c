@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from '../layout/wrapper';
 import SEO from '../common/seo';
-import Service from '../components/service';
+import Service from '../components/solutions';
 import ServiceArea from '../components/service-hospitality/service-area';
 import HospitalityService from '../components/service-hospitality';
 

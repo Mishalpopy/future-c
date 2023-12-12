@@ -21,7 +21,7 @@ import { ImRoad } from 'react-icons/im';
 
 const service_details_content = {
     img: "/assets/img/services/service-details-bg-safety.jpg",
-    title: "Service Overview",
+    title: "Solutions Overview",
     info_1: <>Safeguarding a company's assets, encompassing both property and personnel, is paramount for sustained success. Relying on experts with the knowledge and experience to implement effective security and safety measures is crucial. Through collaboration with reputable suppliers and experienced staff, companies can fortify their assets with confidence.</>,
 
 over_veiw_list: [
@@ -77,12 +77,12 @@ over_veiw_list: [
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/barries.svg",
      title: "Gate Barriers",
-    info:"Manage traffic and access control with our Barriers. Ensure smooth operation effortlessly"},
+    info:"Gate barriers control vehicle entry in various spaces, including parking lots, hotels, supermarkets, and tollbooths, ensuring security and efficiency."},
     {id: 13,
         img: "/assets/img/services/service-details-bg.jpg",
         icon: "/assets/img/safety/gate.svg",
      title: "Speed Gates",
-    info:"Establish a secure perimeter with our Fencing System. Enhance security effortlessly."},
+    info:"Fast, secure access control with stylish speed gates—bi-parting panels, swing, or sliding doors blend seamlessly for your building's entrance aesthetics."},
     
     {id: 13,
         img: "/assets/img/services/service-details-bg.jpg",
@@ -175,10 +175,7 @@ const  ServiceDetailsArea = () => {
                                     
                             
 
-                                    <div className="tp-bottom-info pt-20">
-                                        <h4>{bottom_info_title}</h4>
-                                        <p>{bottom_info}</p>
-                                    </div>
+                                
 
                                 </div>
                             </div>
@@ -186,7 +183,7 @@ const  ServiceDetailsArea = () => {
                         </div>
                         <div className="col-xl-3">
                         <div className="tp-sidebar-widget">
-                            <h4 className="tp-widget-title">Our Services</h4>
+                            <h4 className="tp-widget-title">Our Solutions</h4>
                             <div className="tp-widget-item">
                             <ul>
                                     {service.map((item, i) => 

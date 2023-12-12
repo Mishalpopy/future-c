@@ -12,7 +12,7 @@ const Combination = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbCombi title="Safety & Security Systems" innertitle="Future Connect" />
+      <BreadcrumbCombi title="Combination Power & Charging" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

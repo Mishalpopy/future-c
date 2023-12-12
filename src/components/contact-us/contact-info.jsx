@@ -20,7 +20,7 @@ const contact_info_data = [
         id: 3, 
         icon: "fas fa-map-marker-alt",
         title: "KSA - Office Address",
-        info_1: "#8533, Khalid bin Moawiya Street, Al Rayan District, Jeddah 23643, Western Region, Saudi Arabia",
+        info_1: "#8533, Khalid bin Moawiya Street, Al Rayan District, Jeddah 23643, Saudi Arabia",
         info_2: "",
         link_1: "#",
         link_2: "#",

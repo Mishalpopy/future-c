@@ -19,7 +19,7 @@ import { FaSatelliteDish } from 'react-icons/fa';
 
 const service_details_content = {
     img: "/assets/img/itandlow/bg.jpg",
-    title: "Service Overview",
+    title: "Solution Overview",
     info_1: <>Welcome to the future of connectivity and control with our innovative range of solutions at Future Connect. Explore the seamless integration of technology into various aspects of your environment, designed to elevate efficiency and simplify operations effortlessly.<br></br>At Future Connect, we redefine connectivity and control, offering solutions that seamlessly integrate into your environment. Embrace the future of technology with us, where efficiency meets innovation, and control is simplified. Future Connect: Connecting Tomorrow, Today.</>,
 
 over_veiw_list: [
@@ -200,8 +200,7 @@ const ServiceDetailsArea = () => {
                                 
 
                                     <div className="tp-bottom-info pt-20">
-                                        <h4>{bottom_info_title}</h4>
-                                        <p>{bottom_info}</p>
+                                       
                                     </div>
 
                                 </div>
@@ -210,7 +209,7 @@ const ServiceDetailsArea = () => {
                         </div>
                         <div className="col-xl-3">
                         <div className="tp-sidebar-widget">
-                            <h4 className="tp-widget-title">Our Services</h4>
+                            <h4 className="tp-widget-title">Our Solutions</h4>
                             <div className="tp-widget-item">
                                 <ul>
                                     {service.map((item, i) => 

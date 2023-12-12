@@ -20,15 +20,11 @@ import { GiFilmProjector } from 'react-icons/gi';
 
 const service_details_content = {
     img: "/assets/img/breadcrumb/audio2.jpg",
-    title: "Service Overview",
+    title: "Solutions Overview",
     info_1: <>Discover a world of immersive audiovisual solutions that transform ordinary events into extraordinary experiences. At Future Connect, we specialize in delivering cutting-edge services to enhance various environments. Explore our range of services designed to elevate the quality of live performances, presentations, meetings, and more.</>,
 
 over_veiw_list: [
-    {id: 1,
-        img: "/assets/img/services/service-details-bg.jpg",
-     icon: "/assets/img/audio/stage.svg",
-     title: "Stage Lighting",
-     info: "Enhancing live performances with dynamic illumination and atmospheric effects."},
+    
     {id: 2,
         img: "/assets/img/services/service-details-bg.jpg",
        icon: "/assets/img/audio/wall.svg",
@@ -41,17 +37,17 @@ over_veiw_list: [
      title: "Meeting Room Solutions",
     info: "Integrated technology for efficient and collaborative meeting environments."},
 
-    {id: 5,
-        img: "/assets/img/services/service-details-bg.jpg",
-         icon: "/assets/img/audio/sound.svg",
-     title: "Sound Reinforcement & Acoustic Solutions",
-    info:"Elevating audio quality and managing acoustics for superior sound experiences."},
-   
+    
     {id: 5,
         img: "/assets/img/services/service-details-bg.jpg",
          icon: "/assets/img/audio/dis.svg",
      title: "Discussion & Interpretation Systems",
-    info:"Facilitating effective communication through advanced discussion and language interpretation systems."},
+    info:"Used in meetings and events, these systems ensure order and facilitate communication with simultaneous interpretation."},
+    {id: 7,
+        img: "/assets/img/services/service-details-bg.jpg",
+        icon: "/assets/img/digital-service/digital.svg",
+     title: "Digital Signage",
+    info:"Introducing our concise Digital Signage solution – the key to impactful displays with minimal effort. Elevate communication, captivate audiences, and manage content effortlessly."},
 
 ],
 over_veiw_list_two: [

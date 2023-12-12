@@ -15,7 +15,7 @@ const BreadcrumbContact = ({title="About" , innertitle="Transforming the Future"
                                 <span className="dvdr"><i className="flaticon-arrow-right"></i></span>
                                 <span>{title}</span>
                             </div>
-                            <h5 className="breadcrumb__title">Connect with<br></br> Future Connect<p></p> </h5>
+                            <h5 className="breadcrumb__title">Connect Future with<br></br> Future Connect<p></p> </h5>
                         </div>
                         </div>
                     </div>

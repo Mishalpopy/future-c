@@ -14,12 +14,12 @@ const About = () => {
     <>
       <HeaderOne />
       <Breadcrumb  title="About"  innertitle="Transforming the Future"  />
-      <AboutArea />
+      <FeatureArea />
+
       <OurHistory /> 
      
-      <FeatureArea />
       <FeaturesLevel />
-      <ContactArea />
+     
   
       <Footer />
     </>

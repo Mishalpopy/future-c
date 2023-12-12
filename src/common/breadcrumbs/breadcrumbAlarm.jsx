@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BreadcrumbAlarm = ({title=" Power Charging & USB" , innertitle="Transforming the Future" }) => {
+const BreadcrumbMeeting = ({title=" Meeting & Conference" , innertitle="Transforming the Future" }) => {
     return (
         <>
             <section className="breadcrumb__area include-bg pt-200 pb-200" 
@@ -15,7 +15,7 @@ const BreadcrumbAlarm = ({title=" Power Charging & USB" , innertitle="Transformi
                                 <span className="dvdr"><i className="flaticon-arrow-right"></i></span>
                                 <span>{title}</span>
                             </div>
-                            <h5 className="breadcrumb__title">Combination Power & Charging <br></br>Future Connect</h5>
+                            <h5 className="breadcrumb__title">Your Instant Virtual Receptionist<br></br>for Seamless Business Communication.</h5>
                         </div>
                         </div>
                     </div>
@@ -25,4 +25,4 @@ const BreadcrumbAlarm = ({title=" Power Charging & USB" , innertitle="Transformi
     );
 };
 
-export default BreadcrumbAlarm;
+export default BreadcrumbMeeting;

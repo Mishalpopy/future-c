@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BreadcrumbTravel = ({title=" Power Charging & USB" , innertitle="Transforming the Future" }) => {
+const BreadcrumbTravel = ({title=" Compact Bluetooth Speakers for Any Occasion" , innertitle="Transforming the Future" }) => {
     return (
         <>
             <section className="breadcrumb__area include-bg pt-200 pb-200" 
@@ -15,7 +15,7 @@ const BreadcrumbTravel = ({title=" Power Charging & USB" , innertitle="Transform
                                 <span className="dvdr"><i className="flaticon-arrow-right"></i></span>
                                 <span>{title}</span>
                             </div>
-                            <h5 className="breadcrumb__title">Combination Power & Charging <br></br>Future Connect</h5>
+                            <h5 className="breadcrumb__title">Compact Bluetooth<br></br>Speakers for Any Occasion</h5>
                         </div>
                         </div>
                     </div>

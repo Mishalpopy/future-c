@@ -22,46 +22,16 @@ import { CgWebsite } from 'react-icons/cg';
 
 
 const service_details_content = {
-    img: "/assets/img/hospitality/travel/banner.jpeg",
+    img: "/assets/img/hospitality/mee/bg2.jpeg",
     title: "Service Overview",
-    info_1: <>Introducing our range of travel accessories designed to enhance the journey for international guests. Elevate the travel experience with our compact, multi-port travel adapters, available in various sizes to cater to the diverse needs of today's globetrotters.</>,
+    info_1: <>Streamline your stay with cutting-edge self-service kiosks and mobile keys for swift check-in and check-out, elevating your guest experience with convenience at your fingertips.</>,
 
 over_veiw_list: [
     {id: 1,
-        img: "/assets/img/hospitality/travel/001.jpg",
+        img: "/assets/img/hospitality/mee/002.jpg",
          icon: <SiFirewalla />,
-     title: "ChargePort Duo",
-     info: "Perfect for travel, Mini design making it easy to store and carry, Compact and lightweight"},
-    {id: 2,
-        img: "/assets/img/hospitality/travel/002.jpg",
-         icon: <CgWebsite />,
-     title: "Europe to World Power Adaptor",
-     info: "Perfect for travel, Robust Design, Rated Current: 10A",
-    },
-    {id: 3,
-        img: "/assets/img/hospitality/travel/003.jpg",
-         icon: <MdSecurity />,
-     title: "World Travel Adaptor with Dual USB A",
-    info: "Compact style and compatibility with various plugs make this dual USB adaptor perfect for travel. Rated Current: 6A"},
-    {id: 4,
-        img: "/assets/img/hospitality/travel/004.jpg",
-         icon: <BsFillHddNetworkFill />,
-     title: "USB-C to Lightning Cable 1M",
-    info: "Offering seamless charging and data transfer for a variety of Apple devices, the USB-C to Lightning Cable 1M is a modern amenity for your guests."},
-
-    {id: 4,
-        img: "/assets/img/hospitality/travel/005.jpg",
-         icon: <BsFillHddNetworkFill />,
-     title: "USB-C to USB-C Charging Cable",
-    info: "Upgrade your hotel rooms with the USB-C to USB-C Charging Cable, providing a convenient solution for fast and reliable device charging."},
-
-    {id: 4,
-        img: "/assets/img/hospitality/travel/006.jpeg",
-         icon: <BsFillHddNetworkFill />,
-     title: "USB-A to Type-C Cable 1M",
-    info: "Enhance guest convenience with the USB-A to Type-C Cable 1M, allowing seamless charging and data transfer between devices in your hotel rooms."},
-
-
+     title: "Virtual Reception Kiosk & Mobile",
+     info: "A virtual reception kiosk to cover all of your guests' check-in needs. The Virdee kiosk is an elegant addition to any lobby and provides a seamless, all-in-one solution for check-in and check-out. Guests can log in simply by scanning a QR code"},
    
 ],
 
@@ -88,7 +58,7 @@ over_veiw_list: [
     ],
 
     bottom_info_title: "Why Choose Future Connect",
-    bottom_info: <>Make every journey a seamless experience with our compact and versatile travel adapters. Whether you're a jetsetter, business traveler, or adventurer, our travel accessories are designed to keep you connected wherever you roam. Explore the world with confidence, knowing that your devices are powered up and ready for the next adventure.</>,
+    bottom_info: <>Discover a new era of guest satisfaction with our range of alarm clocks that redefine the wake-up experience. Whether you're a boutique hotel, luxury resort, or modern inn, our clocks add a touch of elegance and innovation to every room, ensuring that your guests start their day on the right note. Explore the future of hotel amenities with our stylish and feature-packed alarm clocks.</>,
 
 service: [
     { id: 1, icon: <GrTechnology />, title: "Digital Solutions" },

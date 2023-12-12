@@ -7,7 +7,7 @@ const ServiceArea = () => {
            <div className="service-area pt-120 pb-55">
                 <div className="container">
                     <div className="row">
-                        {service_data.slice(10, 16).map((item, i)  => 
+                        {service_data.slice(10, 19).map((item, i)  => 
                             <div key={i} className="col-lg-4 col-md-6">
                                 <div className="tpservices">
                                     <div className="tpservices__thumb">

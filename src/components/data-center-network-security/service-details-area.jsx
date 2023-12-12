@@ -20,7 +20,7 @@ import { GiCoolSpices } from 'react-icons/gi';
 
 const service_details_content = {
     img: "/assets/img/breadcrumb/data.jpg",
-    title: "Service Overview",
+    title: "Solutions Overview",
     info_1: <>Unlock the potential of your business with our comprehensive Data Center & Network Security services. At Future Connect, we offer a suite of cutting-edge solutions designed to propel your network infrastructure into the future. From efficient data flow management and seamless wireless connectivity to robust server environments and secure cloud solutions, we've got your network needs covered.</>,
 
 over_veiw_list: [
@@ -189,7 +189,7 @@ const ServiceDetailsArea = () => {
                         </div>
                         <div className="col-xl-3">
                         <div className="tp-sidebar-widget">
-                            <h4 className="tp-widget-title">Our Services</h4>
+                            <h4 className="tp-widget-title">Our Solutions</h4>
                             <div className="tp-widget-item">
                             <ul>
                                     {service.map((item, i) => 

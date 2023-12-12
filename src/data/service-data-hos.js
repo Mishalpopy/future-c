@@ -132,9 +132,27 @@ const service_data = [
         sirial: "00",
         img: "/assets/img/services/6.jpg",
         icon:"/assets/img/services/audi2.svg",
-        title:"Travel Accessories",
-        description: <>Cord-free charging: essential for on-the-go convenience in travel accessories.</>,
-        link: "/Travel-Accessories"
+        title:"Bluetooth Speakers",
+        description: <>A range of Bluetooth speakers from leading manufacturers catering to the needs of today's hotel guests.</>,
+        link: "/BLUETOOTH-SPEAKERS"
+    },
+    {
+        id: 15,
+        sirial: "00",
+        img: "/assets/img/services/007.jpg",
+        icon:"/assets/img/services/audi2.svg",
+        title:"Meeting & Conference",
+        description: <>Enable hotels to easily promote their meeting/conferencing facilities through our smart, simple and innovative connectivity solutions. </>,
+        link: "/Meeting-&-Conference"
+    },
+    {
+        id: 15,
+        sirial: "00",
+        img: "/assets/img/services/008.jpg",
+        icon:"/assets/img/services/audi2.svg",
+        title:"Virtual Reception Kiosk",
+        description: <>Advanced, self-service check-in and check-out kiosks and mobile key to enhance the guests' experience.</>,
+        link: "/Virtual-Reception-Kiosk"
     },
 
 
