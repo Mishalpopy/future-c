@@ -10,7 +10,7 @@ const ContactForm = () => {
         <>
              <form id="contact-form" onSubmit={e => e.preventDefault()}>
                 <div className="row">
-                <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                <div className="col-xxl-12 col-xl-12 col-lg-8 col-md-12">
                     <div className="contact__input">
                         <i className="fas fa-user"></i>
                         <input className="w-100" type="text" placeholder="Enter name" name="name" required />
