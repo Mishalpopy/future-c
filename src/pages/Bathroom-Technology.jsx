@@ -10,7 +10,7 @@ import Bathroom from "../components/Bathroom-Technology";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"BLUETOOTH SPEAKERS || Future Connect - Saudia Arabia"} />
+      <SEO pageTitle={"Bathroom Technology || Future Connect - Saudia Arabia"} />
       <Bathroom />
     </Wrapper>
   );
