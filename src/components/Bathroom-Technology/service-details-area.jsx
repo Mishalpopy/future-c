@@ -22,45 +22,23 @@ import { CgWebsite } from 'react-icons/cg';
 
 
 const service_details_content = {
-    img: "/assets/img/hospitality/multimedia/banner.jpeg",
+    img: "/assets/img/hospitality/mee/bg2.jpeg",
     title: "Service Overview",
-    info_1: <>Step into the future of connectivity with our advanced power charging and USB solutions. Experience the next generation of fast charging and versatile USB connectivity. Our innovative products ensure that your devices stay powered up and seamlessly connected. From high-speed chargers to state-of-the-art USB cables, we bring you the latest in technology to enhance your digital experience. Embrace the future of power charging and USB connectivity—where efficiency meets innovation. Explore our range and stay ahead in the world of tomorrow.</>,
+    info_1: <>Elevate your bathroom experience with Demista's heated mirrors for fog-free clarity, and indulge in portable luxury audio with Marshall's Emberton speaker for unparalleled sound quality.
+    </>,
 
 over_veiw_list: [
     {id: 1,
-        img: "/assets/img/hospitality/multimedia/001.jpg",
+        img: "/assets/img/hospitality/bathroom/001.jpg",
          icon: <SiFirewalla />,
-     title: "PullThrough Pro USB-C",
-     info: "With mobile phones now standardizing on USB Type-C connectors, it has never been easier for your guests to mirror video to the guest room TV. The PullThrough Pro USB-C Video comprises our market leading PullThrough Pro coupled with a 2 metre USB Type-C to HDMI cable."},
-    {id: 2,
-        img: "/assets/img/hospitality/multimedia/002.jpg",
-         icon: <CgWebsite />,
-     title: "MediaHub UHD",
-     info: "MediaHub UHD provides your guests with all the connections they need to play their video or audio content on the in-room TV and also to recharge their mobile devices. ",
-    },
-    {id: 3,
-        img: "/assets/img/hospitality/multimedia/003.png",
-         icon: <MdSecurity />,
-     title: "PullThrough Pro AV-HDMI",
-    info: "Whether you're looking for Internet access points or hook-ups to stream audio and video, or a universal cable holder, we have the easy-to-use solution."},
-    {id: 4,
-        img: "/assets/img/hospitality/multimedia/006.jpg",
-         icon: <BsFillHddNetworkFill />,
-     title: "MediaHub UHD Desktop",
-    info: "The MediaHub UHD Desktop is ideal for your guest room desk or other surface by the TV. Equipped with the most important and universally accepted mobile connections to charge and play, your guests will appreciate the two fast-charging USB ports, wireless Bluetooth for listening listen to their music over the TV speakers, and the HDMI port which supports 4K."},
-
-    {id: 4,
-        img: "/assets/img/hospitality/multimedia/007.jpg",
-         icon: <BsFillHddNetworkFill />,
-     title: "MediaHub UHD Extender",
-    info: "All-in-one connectivity station combining MediaHub UHD and PowerHub."},
-
-    {id: 4,
-        img: "/assets/img/hospitality/multimedia/008.jpg",
-         icon: <BsFillHddNetworkFill />,
-     title: "MediaHub UHD Passthrough",
-    info: "MediaHub with USB outlets, Bluetooth pairing, HDMI and audio jack. "},
-
+     title: "Demista - Defogger Heated Mirror",
+     info: "Allow your guests' to experience the exceptional benefits of Demista's heated mirror element – the top choice for architects, interior designers, and hotels worldwide."},
+   
+     {id: 1,
+        img: "/assets/img/hospitality/bathroom/002.jpg",
+         icon: <SiFirewalla />,
+     title: "Marshall Emberton Hotel",
+     info: "Introducing Emberton, the ultimate compact and portable speaker by Marshall, renowned for its unparalleled sound quality. "},
    
 ],
 
@@ -87,7 +65,7 @@ over_veiw_list: [
     ],
 
     bottom_info_title: "Why Choose Future Connect",
-    bottom_info: <>Empower your devices and embrace the ease of connectivity with our cutting-edge power charging and USB solutions. Step into a world where charging is fast, reliable, and tailored to your devices. Our future-ready products ensure that you stay effortlessly connected in the ever-evolving digital landscape. From rapid charging to versatile USB options, our range is designed to elevate your tech experience. Seize the future of seamless connectivity—explore our selection and redefine the way you power up and stay connected.</>,
+    bottom_info: <>Discover a new era of guest satisfaction with our range of alarm clocks that redefine the wake-up experience. Whether you're a boutique hotel, luxury resort, or modern inn, our clocks add a touch of elegance and innovation to every room, ensuring that your guests start their day on the right note. Explore the future of hotel amenities with our stylish and feature-packed alarm clocks.</>,
 
 service: [
     { id: 1, icon: <GrTechnology />, title: "Digital Solutions" },
@@ -138,7 +116,7 @@ const ServiceDetailsArea = () => {
                             
 
                                     <div className="tp-bottom-info pt-20">
-                                      
+                                   
                                     </div>
 
                                 </div>

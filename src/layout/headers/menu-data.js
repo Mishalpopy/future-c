@@ -48,6 +48,7 @@ const menu_data = [
       { link: "/BLUETOOTH-SPEAKERS", title: "Bluetooth Speakers" },
       { link: "/Meeting-&-Conference", title: "Meeting & Conference" },
       { link: "/Virtual-Reception-Kiosk", title: "Virtual Reception Kiosk" },
+      { link: "/Bathroom-Technology", title: "Bathroom Technology" },
 
 
       

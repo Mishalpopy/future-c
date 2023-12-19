@@ -14,7 +14,7 @@ const footer_content = {
    pages: [
       {title: "Home", link: "/"},
       {title: "About Us", link: "about"},
-      {title: "Solutions", link: "/service"},
+      {title: "Solutions", link: "/solutions"},
       {title: "Hospitality Hub", link: "/service-hospitality"},
       {title: "Contact Us", link: "/contact"},
 

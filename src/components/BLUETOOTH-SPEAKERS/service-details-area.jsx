@@ -223,8 +223,7 @@ const ServiceDetailsArea = () => {
                             
 
                                     <div className="tp-bottom-info pt-20">
-                                        <h4>{bottom_info_title}</h4>
-                                        <p>{bottom_info}</p>
+                                      
                                     </div>
 
                                 </div>
