@@ -8,7 +8,7 @@ import BreadcrumbPower from "@/src/common/breadcrumbs/breadcrumbPowerDigital";
 import BreadcrumbMulti from "@/src/common/breadcrumbs/breadcrumbMulti";
 import BreadcrumbCombi from "@/src/common/breadcrumbs/BreadcrumbCombi";
 import BreadcrumbAlarm from "@/src/common/breadcrumbs/breadcrumbAlarm";
-import BreadcrumbMeeting from "@/src/common/breadcrumbs/breadcrumbAlarm";
+import BreadcrumbMeeting from "@/src/common/breadcrumbs/breadcrumbMeeting";
 
 const MeetingCon = () => {
   return (

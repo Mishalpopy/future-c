@@ -15,7 +15,7 @@ const BreadcrumbVirtual = ({title=" Meeting & Conference" , innertitle="Transfor
                                 <span className="dvdr"><i className="flaticon-arrow-right"></i></span>
                                 <span>{title}</span>
                             </div>
-                            <h5 className="breadcrumb__title">Efficient Collaboration for<br></br>Productive Meetings and Conferences</h5>
+                            <h5 className="breadcrumb__title">Revolutionize Your Front Desk <br></br>Experience with Our Virtual Reception Kiosk</h5>
                         </div>
                         </div>
                     </div>

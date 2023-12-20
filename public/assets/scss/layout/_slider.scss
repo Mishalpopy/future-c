@@ -4,7 +4,8 @@
 /*----------------------------------------*/
 
 .tp-slider-height {
-    min-height: 100vh;
+    min-height: 810px;
+    height: 810px;
 
     @media #{$xs} {
         background-position: center;
@@ -15,14 +16,8 @@
     }
 
     @media #{$xs} {
-        min-height: 600px;
+        min-height: 660px;
     }
-}
-#sliderVideo{
-    width: 100vw;
-    position: relative;
-    top: 0;
-
 }
 
 .tp-slider-height-2 {
@@ -38,23 +33,13 @@
         top: 0;
         left: 0;
         width: 100%;
-        opacity: 40%;
         height: 100%;
         z-index: -1;
         background-image: url(../../img/slider/blur.png);
         background-repeat: no-repeat;
     }
-    
     & .slider-btn{
         box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
-    }
-    @media (max-width: 768px) {.slider-btn a {
-        height: 30px;
-        line-height: 30px;
-        border: 0.5px solid black;
-        padding: 0px 16px;
-        font-size: 11px;
-    }
     }
 }
 
@@ -94,21 +79,17 @@
 }
 
 .tp-slider-sub-title {
-    background: rgba(42, 142, 92, 0.8);
-    color: white;
-    backdrop-filter: op;
+    background: var(--tp-theme-1);
+    color: var(--tp-common-white);
     text-transform: uppercase;
     padding: 4px 10px;
     font-weight: var(--tp-fw-bold);
     display: inline-block;
     margin-bottom: 20px;
 
-    @media (min-width: 768px) {
-
-    .tp-slider-sub-title {
+    @media #{$xs} {
         font-size: 14px;
     }
-}
 }
 
 @media #{$xs} {
@@ -118,40 +99,21 @@
 }
 
 .tp-slider-title {
-    font-size: 47px;
+    font-size: 69px;
     line-height: 1.1;
     margin-bottom: 18px;
     letter-spacing: -2.5px;
 
     @media #{$xs} {
-        font-size: 20px;
-        letter-spacing: 0.5px;
+        font-size: 40px;
     }
 }
 
 .tp-slider-content {
-    
-    margin-top: 120px !important;
-    
-    @media (max-width: 768px) {
-    font-size: 12px;
-    margin-top: 20px !important;
-    padding: 0px 25px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    padding: 0 20px;
-    }
-
-
     & p {
         color: #696868;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 28px;
-    }
-    @media #{$xs} {
-        font-size: 12px;
-        margin-top: 20px !important;
     }
 }
 
@@ -160,9 +122,7 @@
     align-items: center;
     line-height: 1;
 
-    @media (max-width: 768px){
-        margin-top: 25px !important;
-    }
+    @media #{$xs} {}
 }
 
 .tp-slide-service {
@@ -171,11 +131,10 @@
 
     @media #{$xs} {
         margin-bottom: 10px;
-        display: none;
     }
 
     & h4 {
-        color: #2A8E5C;
+        color: #3c8599;
         font-size: 48px;
         margin-right: 12px;
         margin-bottom: 0;
@@ -205,7 +164,6 @@
 .slick-active .tp-slider-content p {
     -webkit-animation-delay: 0.7s;
     animation-delay: 0.7s;
-    color: white;
     -webkit-animation-duration: 0.7s;
     animation-duration: 0.7s;
 }
@@ -215,7 +173,6 @@
     animation-delay: 0.9s;
     -webkit-animation-duration: 0.9s;
     animation-duration: 0.9s;
-
 }
 .slick-active .tp-slide-btn-box-3 {
     -webkit-animation-delay: 0.9s;
@@ -238,8 +195,7 @@
 
 @media #{$xs} {
     .slider-btn {
-
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 }
 
@@ -248,29 +204,31 @@
 }
 
 .slider-arrow-style {
-    
     & button {
         position: absolute;
-        bottom: 50%;
-        background: #52a47b;
-        height: 40px;
-        width: 40px;
+        top: 50%;
+        background: #fff;
+        height: 60px;
+        width: 60px;
+        border: 2px solid #222;
         border-radius: 50%;
-        color: #ffffff;
-        left: 0px;
+        color: #222;
+        left: 60px;
         z-index: 9;
         transform: translateY(-50%);
         opacity: 0;
         visibility: hidden;
         transition: .4s;
-        
-        
         &:hover{
             background-color: var(--tp-common-black);
             color: var(--tp-common-white);
         }
 
-        
+        @media #{$xxl} {
+            height: 40px;
+            width: 40px;
+            left: 15px;
+        }
 
         @media #{$xl,$lg} {
             top: auto;
@@ -279,11 +237,11 @@
 
         &.slick-next {
             left: auto;
-            right: 0px;
+            right: 60px;
 
             @media #{$xxl} {
                 left: auto;
-                right: 0px;
+                right: 15px;
             }
 
             @media #{$xl,$lg} {
@@ -294,28 +252,11 @@
     }
 }
 .tp-slider-area{
-    position: relative;
-    
-
-    @media (max-width: 768px){
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    @media #{$xl,$lg} {
-        left: 128px;
-        right: auto;
-    }
-
     &:hover{
         & .slider-arrow-style{
             & button{
                 opacity: 1;
                 visibility: visible;
-                height: 30px;
-                width: 30px;
             }
         }
     }
@@ -419,13 +360,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-blend-mode: overlay;
-    background-color: rgb(42 142 92 / 68%);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
-
-    @media (max-width: 768px) {
-        background-blend-mode:normal;
-    }
 }
 
 

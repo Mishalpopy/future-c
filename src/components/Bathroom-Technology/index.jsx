@@ -10,12 +10,13 @@ import BreadcrumbCombi from "@/src/common/breadcrumbs/BreadcrumbCombi";
 import BreadcrumbAlarm from "@/src/common/breadcrumbs/breadcrumbAlarm";
 import BreadcrumbMeeting from "@/src/common/breadcrumbs/breadcrumbAlarm";
 import BreadcrumbVirtual from "@/src/common/breadcrumbs/breadcrumbVirtual";
+import BreadcrumbBath from "@/src/common/breadcrumbs/breadcrumbBath";
 
 const Bathroom = () => {
   return (
     <>
       <HeaderOne />
-      <BreadcrumbVirtual title="Bathroom-Technology" innertitle="Future Connect" />
+      <BreadcrumbBath title="Bathroom-Technology" innertitle="Future Connect" />
       <ServiceDetailsArea />
       <Footer />
     </>

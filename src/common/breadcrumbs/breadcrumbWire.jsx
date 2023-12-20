@@ -15,7 +15,7 @@ const BreadcrumbWire = ({title=" Power Charging & USB" , innertitle="Transformin
                                 <span className="dvdr"><i className="flaticon-arrow-right"></i></span>
                                 <span>{title}</span>
                             </div>
-                            <h5 className="breadcrumb__title">Combination Power & Charging <br></br>Future Connect</h5>
+                            <h5 className="breadcrumb__title">Cutting the Cord <br></br>Exploring the Wonders of Wireless Charging Technology</h5>
                         </div>
                         </div>
                     </div>
